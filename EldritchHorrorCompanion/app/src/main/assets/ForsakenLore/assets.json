@@ -1,0 +1,81 @@
+[
+  {
+     "name":"Research Student",
+     "cost":1,
+     "type":["ally"]
+  },
+  {
+     "name":"Lantern",
+     "cost":1,
+     "type":["item"]
+  },
+  {
+     "name":"Fresh Fruit",
+     "cost":1,
+     "type":["item"]
+  },
+  {
+     "name":"Appeal to the Council",
+     "cost":1,
+     "type":["service"]
+  },
+  {
+     "name":"Tear Gas",
+     "cost":1,
+     "type":["item", "weapon"]
+  },
+  {
+     "name":".45 Colt Revolver",
+     "cost":1,
+     "type":["item", "weapon"]
+  },
+  {
+     "name":"Police Ledger",
+     "cost":1,
+     "type":["item"]
+  },
+  {
+     "name":"Police Assistance",
+     "cost":1,
+     "type":["service"]
+  },
+  {
+     "name":"Syndicate Agent",
+     "cost":2,
+     "type":["ally"]
+  },
+  {
+     "name":"Mystic Bounty Hunter",
+     "cost":2,
+     "type":["ally"]
+  },
+  {
+     "name":"Bodyguard",
+     "cost":2,
+     "type":["ally"]
+  },
+  {
+     "name":"Elder Sign",
+     "cost":2,
+     "type":["trinket", "magical"]
+  },
+  {
+     "name":"Intelligence Report",
+     "cost":3,
+     "type":["service"]
+  },
+  {
+     "name":"Enchanted Blade",
+     "cost":3,
+     "type":["item", "weapon", "magical"]
+  },
+  {
+     "name":"Lucky Ring",
+     "cost":3,
+     "type":["trinket"]
+  },
+  {
+     "name":"Conspiracy Theorist",
+     "cost":3,
+     "type":["ally"]
+  }]

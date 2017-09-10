@@ -1,0 +1,33 @@
+[
+  {
+     "name":"Alien Device",
+     "type":["item"]
+  },
+  {
+     "name":"Crystal of the Elder Things",
+     "type":["item"]
+  },
+  {
+     "name":"Dhol Chants",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Eltdown Shards",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Heart of Winter",
+     "type":["item"]
+  },
+  {
+     "name":"Hyperborean Crystal",
+     "type":["item", "magical"]
+  },
+  {
+     "name":"Livre d'Ivon",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Pnakotic Manuscripts",
+     "type":["item", "tome"]
+  }]

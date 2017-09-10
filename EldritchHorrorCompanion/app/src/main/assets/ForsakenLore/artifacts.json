@@ -1,0 +1,33 @@
+[
+  {
+     "name":"Elixir of Life",
+     "type":["item", "elixir"]
+  },
+  {
+     "name":"Zanthu Tablets",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Serpent Crown",
+     "type":["item", "magical"]
+  },
+  {
+     "name":"Milk of Shub-Niggurath",
+     "type":["item", "elixir"]
+  },
+  {
+     "name":"Massa di Requiem per Shuggay",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Satchel of the Void",
+     "type":["item", "magical"]
+  },
+  {
+     "name":"Cursed Sphere",
+     "type":["item", "magical"]
+  },
+  {
+     "name":"Sword of Y'ha-Talla",
+     "type":["item", "weapon", "magical"]
+  }]

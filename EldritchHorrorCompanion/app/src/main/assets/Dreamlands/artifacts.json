@@ -1,0 +1,17 @@
+[
+  {
+     "name": "Crux of Cykranosh",
+     "type": ["item", "magical"]
+  },
+  {
+     "name": "Crystallizer of Dreams",
+     "type": ["item", "magical", "teamwork"]
+  },
+  {
+     "name": "Elder Key",
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Pentacle of Planes",
+     "type": ["item", "magical"]
+  }]

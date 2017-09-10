@@ -1,0 +1,17 @@
+[
+  {
+     "name":"Scales of Thoth",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Twin Scepters",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Shining Trapezohedron",
+     "type":["item", "magical"]
+  },
+  {
+     "name":"Book of the Dead",
+     "type":["item", "relic", "tome"]
+  }]

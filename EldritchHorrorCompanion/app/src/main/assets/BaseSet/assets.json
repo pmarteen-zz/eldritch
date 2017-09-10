@@ -1,0 +1,196 @@
+[
+  {
+    "name": "Lucky Rabbit's Foot",
+    "cost": 1,
+    "type": ["trinket"]
+  },
+  {
+    "name": "Delivery Service",
+    "cost": 1,
+    "type": ["service", "teamwork"]
+  },
+  {
+    "name": ".38 Revolver",
+    "cost": 1,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": "Bull Whip",
+    "cost": 1,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": "Whiskey",
+    "cost": 1,
+    "type": ["item"]
+  },
+  {
+    "name": "Bandages",
+    "cost": 1,
+    "type": ["item"]
+  },
+  {
+    "name": "Protective Amulet",
+    "cost": 1,
+    "type": ["item"]
+  },
+  {
+    "name": "Wireless Report",
+    "cost": 1,
+    "type": ["service", "teamwork"]
+  },
+  {
+    "name": "Pocket Watch",
+    "cost": 1,
+    "type": ["trinket"]
+  },
+  {
+    "name": "Kerosene",
+    "cost": 1,
+    "type": ["item"]
+  },
+  {
+    "name": ".18 Derringer",
+    "cost": 1,
+    "type": ["trinket", "weapon"]
+  },
+  {
+    "name": "Charter Flight",
+    "cost": 1,
+    "type": ["service"]
+  },
+  {
+    "name": "Cat Burglar",
+    "cost": 1,
+    "type": ["ally"]
+  },
+  {
+    "name": "Fine Clothes",
+    "cost": 2,
+    "type": ["item"]
+  },
+  {
+    "name": "Lucky Cigarette Case",
+    "cost": 2,
+    "type": ["trinket"]
+  },
+  {
+    "name": "King James Bible",
+    "cost": 2,
+    "type": ["item", "tome"]
+  },
+  {
+    "name": "Holy Water",
+    "cost": 2,
+    "type": ["item", "magical"]
+  },
+  {
+    "name": "Arcane Scholar",
+    "cost": 2,
+    "type": ["ally"]
+  },
+  {
+    "name": "Axe",
+    "cost": 2,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": ".45 Automatic",
+    "cost": 2,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": "Holy Cross",
+    "cost": 2,
+    "type": ["item"]
+  },
+  {
+    "name": "Sanctuary",
+    "cost": 2,
+    "type": ["service"]
+  },
+  {
+    "name": "Spirit Dagger",
+    "cost": 2,
+    "type": ["item", "weapon", "magical"]
+  },
+  {
+    "name": "Hired Muscle",
+    "cost": 2,
+    "type": ["ally"]
+  },
+  {
+    "name": "Private Investigator",
+    "cost": 2,
+    "type": ["ally"]
+  },
+  {
+    "name": "Fishing Net",
+    "cost": 2,
+    "type": ["item"]
+  },
+  {
+    "name": "Private Care",
+    "cost": 2,
+    "type": ["service"]
+  },
+  {
+    "name": "Vatican Missionary",
+    "cost": 2,
+    "type": ["ally"]
+  },
+  {
+    "name": "Personal Assistant",
+    "cost": 2,
+    "type": ["ally"]
+  },
+  {
+    "name": "Carbine Rifle",
+    "cost": 3,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": "Lodge Researcher",
+    "cost": 3,
+    "type": ["ally"]
+  },
+  {
+    "name": "Witch Doctor",
+    "cost": 3,
+    "type": ["ally"]
+  },
+  {
+    "name": "Dynamite",
+    "cost": 3,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": "Arcane Tome",
+    "cost": 3,
+    "type": ["item", "tome"]
+  },
+  {
+    "name": "Silver Twilight Ritual",
+    "cost": 3,
+    "type": ["service"]
+  },
+  {
+    "name": "Puzzle Box",
+    "cost": 3,
+    "type": ["trinket"]
+  },
+  {
+    "name": "Double-barreled Shotgun",
+    "cost": 4,
+    "type": ["item", "weapon"]
+  },
+  {
+    "name": "Agency Quarantine",
+    "cost": 4,
+    "type": ["service"]
+  },
+  {
+    "name": "Urban Guide",
+    "cost": 4,
+    "type": ["ally"]
+  }]

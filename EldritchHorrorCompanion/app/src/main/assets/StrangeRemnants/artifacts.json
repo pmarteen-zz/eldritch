@@ -1,0 +1,17 @@
+[
+  {
+     "name":"Bone Pipes",
+     "type":["item", "magical"]
+  },
+  {
+     "name":"Dragon Idol",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Khopesh of the Abyss",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Mask of the Watcher",
+     "type":["item", "magical"]
+  }]

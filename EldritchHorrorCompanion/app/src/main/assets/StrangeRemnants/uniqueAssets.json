@@ -1,0 +1,97 @@
+[
+  {
+     "name": "Ancient Sword",
+     "type": ["item", "magical", "relic", "weapon"]
+  },
+  {
+     "name": "Asenath Waite",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Etienne Laurent",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Exploring the Ruins",
+     "type": ["task"]
+  },
+  {
+     "name": "Exploring the Ruins",
+     "type": ["task"]
+  },
+  {
+     "name": "Exploring the Ruins",
+     "type": ["task"]
+  },
+  {
+     "name": "Lost Treasure",
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Mysterious Idol",
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Mysterious Idol",
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Mysterious Idol",
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Prayer",
+     "type": ["task"]
+  },
+  {
+     "name": "Prayer",
+     "type": ["task"]
+  },
+  {
+     "name": "Prayer",
+     "type": ["task"]
+  },
+  {
+     "name": "Professor Rice",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Sealing the Old Ones",
+     "type": ["task"]
+  },
+  {
+     "name": "Sealing the Old Ones",
+     "type": ["task"]
+  },
+  {
+     "name": "Sealing the Old Ones",
+     "type": ["task"]
+  },
+  {
+     "name": "Stone Calendar",
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Stone Chest",
+     "type": ["item", "relic"]
+  },
+  {
+     "name": "Stone Chest",
+     "type": ["item", "relic"]
+  },
+  {
+     "name": "Stone Chest",
+     "type": ["item", "relic"]
+  },
+  {
+     "name": "Stone Tablet",
+     "type": ["item", "relic"]
+  },
+  {
+     "name": "Stone Tablet",
+     "type": ["item", "relic"]
+  },
+  {
+     "name": "Stone Tablet",
+     "type": ["item", "relic"]
+  }]

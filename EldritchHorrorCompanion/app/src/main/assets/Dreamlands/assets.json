@@ -1,0 +1,81 @@
+[
+  {
+     "name": "Alchemical Concoction",
+     "cost": 1,
+     "type": ["item", "magical"]
+  },
+  {
+     "name": "Divination",
+     "cost": 1,
+     "type": ["service"]
+  },
+  {
+     "name": "Dream Diary",
+     "cost": 1,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Seek the Truth",
+     "cost": 1,
+     "type": ["task"]
+  },
+  {
+     "name": "Sekeleton Keys",
+     "cost": 1,
+     "type": ["trinket"]
+  },
+  {
+     "name": "Camera",
+     "cost": 2,
+     "type": ["item"]
+  },
+  {
+     "name": "Dream Box",
+     "cost": 2,
+     "type": ["trinket", "magical"]
+  },
+  {
+     "name": "Forbidden Text",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Night Classes",
+     "cost": 2,
+     "type": ["service"]
+  },
+  {
+     "name": "Otherworld Codex",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Arcanist",
+     "cost": 3,
+     "type": ["ally"]
+  },
+  {
+     "name": "Enchanted Bow",
+     "cost": 3,
+     "type": ["item", "magical", "weapon"]
+  },
+  {
+     "name": "Hitman",
+     "cost": 3,
+     "type": ["ally"]
+  },
+  {
+     "name": "Occult Grimoire",
+     "cost": 3,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Police Raid",
+     "cost": 3,
+     "type": ["service"]
+  },
+  {
+     "name": "Willful Aristrocrat",
+     "cost": 4,
+     "type": ["ally"]
+  }]

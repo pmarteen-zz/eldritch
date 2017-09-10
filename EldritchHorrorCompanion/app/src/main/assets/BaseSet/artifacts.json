@@ -1,0 +1,71 @@
+[
+  {
+     "name":"T'tka Halot",
+     "type":["item", "tome"]
+
+  },
+  {
+     "name":"Necronomicon",
+     "type":["item", "tome"]
+
+  },
+  {
+     "name":"Grotesque Statue",
+     "type":["item"]
+
+  },
+  {
+     "name":"De Vermis Mysteriis",
+     "type":["item", "tome"]
+
+  },
+  {
+     "name":"Lightning Gun",
+     "type":["item", "weapon", "magical"]
+
+  },
+  {
+     "name":"Ruby of R'lyeh",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"Glass of Mortlan",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"The Silver Key",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"Mi-go Brain Case",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"Flute of the Outer Gods",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"Gate Box",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"Pallid Mask",
+     "type":["item", "magical"]
+
+  },
+  {
+     "name":"Sword of Saint Jerome",
+     "type":["item", "weapon", "magical"]
+
+  },
+  {
+     "name":"Cultes des Goules",
+     "type":["item", "tome"]
+
+  }]

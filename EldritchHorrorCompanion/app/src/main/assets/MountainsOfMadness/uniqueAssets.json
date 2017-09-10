@@ -1,0 +1,169 @@
+[
+  {
+     "name":"Anna Tilton",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Antarctic Guide",
+     "type":["ally"]
+  },
+  {
+     "name":"Antarctic Guide",
+     "type":["ally"]
+  },
+  {
+     "name":"Constance Hawberk",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Courier Run",
+     "type":["task"]
+  },
+  {
+     "name":"Courier Run",
+     "type":["task"]
+  },
+  {
+     "name":"Courier Run",
+     "type":["task"]
+  },
+  {
+     "name":"Courier Run",
+     "type":["task"]
+  },
+  {
+     "name":"Dog Sled",
+     "type":["ally"]
+  },
+  {
+     "name":"Dog Sled",
+     "type":["ally"]
+  },
+  {
+     "name":"Danforth",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Dr. Hiram Upham",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Esteban Herrero",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Father Merluzzo",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"For the Greater Good",
+     "type":["task"]
+  },
+  {
+     "name":"For the Greater Good",
+     "type":["task"]
+  },
+  {
+     "name":"For the Greater Good",
+     "type":["task"]
+  },
+  {
+     "name":"Henry Wilcox",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Kid O'Brien",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Old Journal",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Old Journal",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Old Journal",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Old Journal",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Professor Armitage",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Provisions",
+     "type":["item"]
+  },
+  {
+     "name":"Provisions",
+     "type":["item"]
+  },
+  {
+     "name":"Provisions",
+     "type":["item"]
+  },
+  {
+     "name":"Provisions",
+     "type":["item"]
+  },
+  {
+     "name":"Purifying the World",
+     "type":["task"]
+  },
+  {
+     "name":"Purifying the World",
+     "type":["task"]
+  },
+  {
+     "name":"Purifying the World",
+     "type":["task"]
+  },
+  {
+     "name":"Sacrifices to Make",
+     "type":["task"]
+  },
+  {
+     "name":"Sacrifices to Make",
+     "type":["task"]
+  },
+  {
+     "name":"Sacrifices to Make",
+     "type":["task"]
+  },
+  {
+     "name":"Sealing the Old Ones",
+     "type":["task"]
+  },
+  {
+     "name":"Sealing the Old Ones",
+     "type":["task"]
+  },
+  {
+     "name":"Sealing the Old Ones",
+     "type":["task"]
+  },
+  {
+     "name":"Sir William Brinton",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Walking the Ley Lines",
+     "type":["task"]
+  },
+  {
+     "name":"Walking the Ley Lines",
+     "type":["task"]
+  },
+  {
+     "name":"Walking the Ley Lines",
+     "type":["task"]
+  },
+  {
+     "name":"William Dyer",
+     "type":["ally", "character"]
+  }]

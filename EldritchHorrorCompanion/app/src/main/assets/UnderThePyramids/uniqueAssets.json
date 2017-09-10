@@ -1,0 +1,141 @@
+[
+  {
+     "name":"Ancient Sword",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Canopic Jar",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Canopic Jar",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Canopic Jar",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Cryptic Text",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Cryptic Text",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Cryptic Text",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Cryptic Text",
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Cursed Tablet",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Enoch Brown",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Erich Weiss",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Fossilized Samples",
+     "type":["item", "relic"]
+  },
+  {
+     "name":"Fossilized Samples",
+     "type":["item", "relic"]
+  },
+  {
+     "name":"Fossilized Samples",
+     "type":["item", "relic"]
+  },
+  {
+     "name":"Halpin Chalmers",
+     "type":["ally", "character"]
+  },
+  {
+     "name":"Invoke the Elements",
+     "type":["task"]
+  },
+  {
+     "name":"Invoke the Elements",
+     "type":["task"]
+  },
+  {
+     "name":"Invoke the Elements",
+     "type":["task"]
+  },
+  {
+     "name":"Jeweled Scarab",
+     "type":["trinket", "magical", "relic"]
+  },
+  {
+     "name":"Know Thy Enemy",
+     "type":["task"]
+  },
+  {
+     "name":"Know Thy Enemy",
+     "type":["task"]
+  },
+  {
+     "name":"Know Thy Enemy",
+     "type":["task"]
+  },
+  {
+     "name":"Mysterious Idol",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Mysterious Idol",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Mysterious Idol",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Ornate Scarab",
+     "type":["trinket", "magical", "relic"]
+  },
+  {
+     "name":"Pharaonic Mask",
+     "type":["item", "magical", "relic"]
+  },
+  {
+     "name":"Purifying the World",
+     "type":["task"]
+  },
+  {
+     "name":"Purifying the World",
+     "type":["task"]
+  },
+  {
+     "name":"Purifying the World",
+     "type":["task"]
+  },
+  {
+     "name":"Treasure Map",
+     "type":["trinket"]
+  },
+  {
+     "name":"Treasure Map",
+     "type":["trinket"]
+  },
+  {
+     "name":"Treasure Map",
+     "type":["trinket"]
+  },
+  {
+     "name":"Treasure Map",
+     "type":["trinket"]
+  },
+  {
+     "name":"Wooden Puppet",
+     "type":["ally", "magical", "relic"]
+  }]

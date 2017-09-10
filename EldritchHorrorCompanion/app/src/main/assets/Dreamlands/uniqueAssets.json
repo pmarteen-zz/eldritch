@@ -1,0 +1,101 @@
+[
+  {
+     "name": "Basil Elton",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Randolph Carter",
+     "type": ["character"]
+  },
+  {
+     "name": "Miss Doyle",
+     "type": ["ally"]
+  },
+  {
+     "name": "Flux Stabilizer",
+     "type": ["item"]
+  },
+  {
+     "name": "Four of Cups",
+     "type": ["trinket", "tarot"]
+  },
+  {
+     "name": "The Moon XVIII",
+     "type": ["trinket", "tarot"]
+  },
+  {
+     "name": "Five of Pentacles",
+     "type": ["trinket", "tarot"]
+  },
+  {
+     "name": "Ace of Swords",
+     "type": ["trinket", "tome"]
+  },
+  {
+     "name": "Death XIII",
+     "type": ["trinket", "tome"]
+  },
+  {
+     "name": "Mythos Codex",
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Mythos Codex",
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Mythos Codex",
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Mythos Codex",
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Bury Them Deep",
+     "type": ["task"]
+  },
+  {
+     "name": "Bury Them Deep",
+     "type": ["task"]
+  },
+  {
+     "name": "Bury Them Deep",
+     "type": ["task"]
+  },
+  {
+     "name": "Dimensional Study",
+     "type": ["task"]
+  },
+  {
+     "name": "Dimensional Study",
+     "type": ["task"]
+  },
+  {
+     "name": "Dimensional Study",
+     "type": ["task"]
+  },
+  {
+     "name": "Unspeakable Research",
+     "type": ["task"]
+  },
+  {
+     "name": "Unspeakable Research",
+     "type": ["task"]
+  },
+  {
+     "name": "Unspeakable Research",
+     "type": ["task"]
+  },
+  {
+     "name": "Walking the Ley Lines",
+     "type": ["task"]
+  },
+  {
+     "name": "Walking the Ley Lines",
+     "type": ["task"]
+  },
+  {
+     "name": "Walking the Ley Lines",
+     "type": ["task"]
+  }]

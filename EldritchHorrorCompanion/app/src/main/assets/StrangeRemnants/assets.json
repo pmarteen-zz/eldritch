@@ -1,0 +1,86 @@
+[
+  {
+     "name": "Specialized Training",
+     "cost": 1,
+     "type": ["task"]
+  },
+  {
+     "name": "Holy Spear",
+     "cost": 3,
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Ritual Dagger",
+     "cost": 1,
+     "type": ["item", "magical", "weapon"]
+  },
+  {
+     "name": "Lavish Feast",
+     "cost": 1,
+     "type": ["service"]
+  },
+  {
+     "name": "Mysterious Tome",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Museum Curator",
+     "cost": 3,
+     "type": ["ally"]
+  },
+  {
+     "name": "Expedition Map",
+     "cost": 1,
+     "type": ["trinket", "tome"]
+  },
+  {
+     "name": "Handcuffs",
+     "cost": 2,
+     "type": ["item"]
+  },
+  {
+     "name": "Arcane Manuscripts",
+     "cost": 1,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Agent of Secrets",
+     "cost": 4,
+     "type": ["ally"]
+  },
+  {
+     "name": "Opus Arcana",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Medical Journal",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Expedition Guide",
+     "cost": 2,
+     "type": ["ally"]
+  },
+  {
+     "name": "Consecration",
+     "cost": 2,
+     "type": ["service"]
+  },
+  {
+     "name": "Arcane Blade",
+     "cost": 3,
+     "type": ["item", "magical", "weapon"]
+  },
+  {
+     "name": "Tome of Secrets",
+     "cost": 3,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Gruesome Talisman",
+     "cost": 1,
+     "type": ["trinket"]
+  }]

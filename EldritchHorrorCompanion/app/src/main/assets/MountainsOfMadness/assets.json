@@ -1,0 +1,81 @@
+[
+  {
+     "name":"Astronomy Guidebook",
+     "cost":2,
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Blunderbuss",
+     "cost":2,
+     "type":["item", "weapon"]
+  },
+  {
+     "name":"Courier Needed!",
+     "cost":1,
+     "type":["service"]
+  },
+  {
+     "name":"Cultist's Journal",
+     "cost":3,
+     "type":["item", "magical", "tome"]
+  },
+  {
+     "name":"Gambler's Dice",
+     "cost":3,
+     "type":["trinket"]
+  },
+  {
+     "name":"Genealogy Research",
+     "cost":1,
+     "type":["task"]
+  },
+  {
+     "name":"Investment",
+     "cost":1,
+     "type":["task"]
+  },
+  {
+     "name":"Map of the Ley Lines",
+     "cost":4,
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Mineralogy Research",
+     "cost":1,
+     "type":["task"]
+  },
+  {
+     "name":"Monster Hunter",
+     "cost":3,
+     "type":["ally"]
+  },
+  {
+     "name":"Newspaper Report",
+     "cost":1,
+     "type":["task"]
+  },
+  {
+     "name":"Patrolling the Streets",
+     "cost":1,
+     "type":["task"]
+  },
+  {
+     "name":"Profane Tome",
+     "cost":1,
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Search the Archives",
+     "cost":2,
+     "type":["service"]
+  },
+  {
+     "name":"Secret Page",
+     "cost":2,
+     "type":["item", "tome"]
+  },
+  {
+     "name":"Tome of Horrors",
+     "cost":3,
+     "type":["item", "tome"]
+  }]

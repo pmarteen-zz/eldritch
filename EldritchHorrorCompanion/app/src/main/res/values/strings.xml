@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Eldritch Horror Companion</string>
+    <string name="asset_button">Random Asset</string>
+    <string name="spell_button">Random Spell</string>
+    <string name="unique_asset_button">Random Unique Asset</string>
+    <string name="artifact_button">Random Artifact</string>
+    <string name="relic_button">Random Relic</string>
+    <string name="reset">Reset</string>
+    <string name="any_spell">Any Spell</string>
+    <string name="rituals">Rituals</string>
+    <string name="incantations">Incantations</string>
+    <string name="glamours">Glamours</string>
+    <string name="go">Go!</string>
+    <string name="subcategories">Any Subcategories?</string>
+    <string name="get_random_card">Get a random card</string>
+    <string name="get_ancient_one_card">Get a random Ancient One</string>
+    <string name="get_character_card">Get a random Character</string>
+    <string name="main_menu_title">Welcome to the Eldritch Horror Companion!</string>
+    <string name="title_activity_random_card">Choose card type</string>
+    <string name="title_activity_selection">SelectionActivity</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+</resources>

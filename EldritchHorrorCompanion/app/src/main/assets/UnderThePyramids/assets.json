@@ -1,0 +1,81 @@
+[
+  {
+     "name":"Treasure Hunter",
+     "cost":4,
+     "type":["ally"]
+  },
+  {
+     "name":"Sledgehammer",
+     "cost":2,
+     "type":["item"]
+  },
+  {
+     "name":"Magnifying Glass",
+     "cost":1,
+     "type":["trinket"]
+  },
+  {
+     "name":"Psychoanalyst",
+     "cost":2,
+     "type":["ally"]
+  },
+  {
+     "name":"Lucky Talisman",
+     "cost":3,
+     "type":["trinket","relic"]
+  },
+  {
+     "name":"Arcane Scroll",
+     "cost":1,
+     "type":["trinket","tome"]
+  },
+  {
+     "name":"Book of Spells",
+     "cost":3,
+     "type":["item","tome"]
+  },
+  {
+     "name":"Scribe's Journal",
+     "cost":1,
+     "type":["item","tome"]
+  },
+  {
+     "name":"Enchanted Dagger",
+     "cost":1,
+     "type":["item","magical","weapon"]
+  },
+  {
+     "name":"Ankh",
+     "cost":3,
+     "type":["item","relic"]
+  },
+  {
+     "name":"Ritual Candles",
+     "cost":1,
+     "type":["trinket"]
+  },
+  {
+     "name":"Curiosity Shoppe",
+     "cost":4,
+     "type":["service"]
+  },
+  {
+     "name":"Ward Evil",
+     "cost":2,
+     "type":["service"]
+  },
+  {
+     "name":"Magick Shoppe",
+     "cost":2,
+     "type":["service"]
+  },
+  {
+     "name":"Ancient Tome",
+     "cost":2,
+     "type":["item","relic","tome"]
+  },
+  {
+     "name":".32 Colt Pocket",
+     "cost":2,
+     "type":["item","weapon"]
+  }]
