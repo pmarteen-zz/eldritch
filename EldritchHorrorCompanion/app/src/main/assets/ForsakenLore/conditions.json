@@ -1,0 +1,97 @@
+[
+  {
+     "name": "Poisoned",
+     "type": ["illness"]
+  },
+  {
+     "name": "Poisoned",
+     "type": ["illness"]
+  },
+  {
+     "name": "Poisoned",
+     "type": ["illness"]
+  },
+  {
+     "name": "Poisoned",
+     "type": ["illness"]
+  },
+  {
+     "name": "Paranoia",
+     "type": ["madness"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Leg Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Internal Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Hallucinations",
+     "type": ["madness"]
+  },
+  {
+     "name": "Detained",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Back Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Amensia",
+     "type": ["madness"]
+  }]

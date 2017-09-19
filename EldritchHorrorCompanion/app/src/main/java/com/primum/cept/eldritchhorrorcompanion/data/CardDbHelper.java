@@ -29,6 +29,9 @@ public class CardDbHelper extends SQLiteOpenHelper {
         db.execSQL(CardContract.ASSET_TABLE_CREATE);
         db.execSQL(CardContract.UNIQUE_ASSET_TABLE_CREATE);
         db.execSQL(CardContract.ARTIFACT_TABLE_CREATE);
+        db.execSQL(CardContract.CONDITION_TABLE_CREATE);
+        db.execSQL(CardContract.CHARACTER_TABLE_CREATE);
+        db.execSQL(CardContract.ANCIENT_ONE_TABLE_CREATE);
     }
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
@@ -36,6 +39,9 @@ public class CardDbHelper extends SQLiteOpenHelper {
         db.execSQL(CardContract.ASSET_TABLE_DELETE);
         db.execSQL(CardContract.UNIQUE_ASSET_TABLE_DELETE);
         db.execSQL(CardContract.ARTIFACT_TABLE_DELETE);
+        db.execSQL(CardContract.CONDITION_TABLE_DELETE);
+        db.execSQL(CardContract.CHARACTER_TABLE_DELETE);
+        db.execSQL(CardContract.ANCIENT_ONE_TABLE_DELETE);
         onCreate(db);
     }
 
@@ -49,10 +55,16 @@ public class CardDbHelper extends SQLiteOpenHelper {
         db.execSQL(CardContract.ASSET_TABLE_DELETE);
         db.execSQL(CardContract.UNIQUE_ASSET_TABLE_DELETE);
         db.execSQL(CardContract.ARTIFACT_TABLE_DELETE);
+        db.execSQL(CardContract.CONDITION_TABLE_DELETE);
+        db.execSQL(CardContract.CHARACTER_TABLE_DELETE);
+        db.execSQL(CardContract.ANCIENT_ONE_TABLE_DELETE);
         //Make em again
         db.execSQL(CardContract.SPELL_TABLE_CREATE);
         db.execSQL(CardContract.ASSET_TABLE_CREATE);
         db.execSQL(CardContract.UNIQUE_ASSET_TABLE_CREATE);
         db.execSQL(CardContract.ARTIFACT_TABLE_CREATE);
+        db.execSQL(CardContract.CONDITION_TABLE_CREATE);
+        db.execSQL(CardContract.CHARACTER_TABLE_CREATE);
+        db.execSQL(CardContract.ANCIENT_ONE_TABLE_CREATE);
     }
 }

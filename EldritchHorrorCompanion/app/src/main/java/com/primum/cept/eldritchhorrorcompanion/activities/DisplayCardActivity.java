@@ -27,7 +27,7 @@ public class DisplayCardActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String cardType = intent.getStringExtra(CardMenuActivity.CARD_TYPE);
-        String subcategory = intent.getStringExtra(SelectionActivity.SUBCATEGORY);
+        String subcategory = intent.getStringExtra(SpellSelectionActivity.SUBCATEGORY);
 
         try {
             Card randomCard = getRandomCard(cardType, subcategory);
@@ -67,7 +67,7 @@ public class DisplayCardActivity extends AppCompatActivity {
     private String createQuery(String tableName, String subcategory){
         String query = "SELECT * FROM "+ tableName;
         if(subcategory != null){
-            query += " WHERE " + CardEntry.COLUMN_TYPE + "='" + subcategory + "'";
+            query += " WHERE " + CardEntry.COLUMN_TYPE + " LIKE '%" + subcategory + "%'";
         }
         return query;
 

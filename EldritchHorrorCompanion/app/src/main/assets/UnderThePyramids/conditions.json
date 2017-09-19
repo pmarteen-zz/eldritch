@@ -1,0 +1,66 @@
+[
+ {
+   "name": "Amnesia",
+   "type": ["madness"]
+ },
+ {
+   "name": "Back Injury",
+   "type": ["injury"]
+ },
+ {
+   "name": "Blessed",
+   "type": ["boon"]
+ },
+ {
+   "name": "Cursed",
+   "type": ["bane"]
+ },
+ {
+   "name": "Despair",
+   "type": ["madness"]
+ },
+ {
+   "name": "Despair",
+   "type": ["madness"]
+ },
+ {
+   "name": "Despair",
+   "type": ["madness"]
+ },
+ {
+   "name": "Despair",
+   "type": ["madness"]
+ },
+ {
+   "name": "Diseased",
+   "type": ["illness"]
+ },
+ {
+   "name": "Diseased",
+   "type": ["illness"]
+ },
+ {
+   "name": "Diseased",
+   "type": ["illness"]
+ },
+ {
+   "name": "Diseased",
+   "type": ["illness"]
+ },
+ {
+   "name": "Haunted",
+   "type": ["bane"]
+ },
+ {
+   "name": "Haunted",
+   "type": ["bane"]
+ },
+ {
+   "name": "Haunted",
+   "type": ["bane"]
+ },
+ {
+   "name": "Haunted",
+   "type": ["bane"]
+ }
+]

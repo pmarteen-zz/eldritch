@@ -39,6 +39,8 @@ public class CardFactory {
                 return ArtifactCard.generateCard(cursor);
             case CardEntry.UNIQUE_ASSET_TABLE_NAME :
                 return UniqueAssetCard.generateCard(cursor);
+            case CardEntry.CONDITION_TABLE_NAME :
+                return ConditionCard.generateCard(cursor);
             default :
                 throw new Exception("Unknown card type");
         }

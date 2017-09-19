@@ -1,82 +1,82 @@
 [
   {
-    "name" : "Wither1",
+    "name" : "Wither",
     "type" : "incantation"
   },
   {
-    "name" : "Wither2",
+    "name" : "Wither",
     "type" : "incantation"
   },
   {
-    "name" : "Shriveling1",
+    "name" : "Shriveling",
     "type" : "ritual"
   },
   {
-    "name" : "Shriveling2",
+    "name" : "Shriveling",
     "type" : "ritual"
   },
   {
-    "name" : "Plumb the Void1",
+    "name" : "Plumb the Void",
     "type" : "ritual"
   },
   {
-    "name" : "Plumb the Void2",
+    "name" : "Plumb the Void",
     "type" : "ritual"
   },
   {
-    "name" : "Mists of Releh1",
+    "name" : "Mists of Releh",
     "type" : "incantation"
   },
   {
-    "name" : "Mists of Releh2",
+    "name" : "Mists of Releh",
     "type" : "incantation"
   },
   {
-    "name" : "Instill Bravery1",
+    "name" : "Instill Bravery",
     "type" : "incantation"
   },
   {
-    "name" : "Instill Bravery2",
+    "name" : "Instill Bravery",
     "type" : "incantation"
   },
   {
-    "name" : "Flesh Ward1",
+    "name" : "Flesh Ward",
     "type" : "incantation"
   },
   {
-    "name" : "Flesh Ward2",
+    "name" : "Flesh Ward",
     "type" : "incantation"
   },
   {
-    "name" : "Feed the Mind1",
+    "name" : "Feed the Mind",
     "type" : "ritual"
   },
   {
-    "name" : "Feed the Mind2",
+    "name" : "Feed the Mind",
     "type" : "ritual"
   },
   {
-    "name" : "Conjuration1",
+    "name" : "Conjuration",
     "type" : "ritual"
   },
   {
-    "name" : "Conjuration2",
+    "name" : "Conjuration",
     "type" : "ritual"
   },
   {
-    "name" : "Clairvoyance1",
+    "name" : "Clairvoyance",
     "type" : "incantation"
   },
   {
-    "name" : "Clairvoyance2",
+    "name" : "Clairvoyance",
     "type" : "incantation"
   },
   {
-    "name" : "Blessing of Isis1",
+    "name" : "Blessing of Isis",
     "type" : "ritual"
   },
   {
-    "name" : "Blessing of Isis2",
+    "name" : "Blessing of Isis",
     "type" : "ritual"
   }
 ]

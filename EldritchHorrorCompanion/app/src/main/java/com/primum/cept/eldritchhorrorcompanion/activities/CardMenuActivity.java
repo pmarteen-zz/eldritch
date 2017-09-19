@@ -11,11 +11,7 @@ import android.widget.Toast;
 import com.primum.cept.eldritchhorrorcompanion.R;
 import com.primum.cept.eldritchhorrorcompanion.data.CardContract.CardEntry;
 import com.primum.cept.eldritchhorrorcompanion.data.CardDbHelper;
-import com.primum.cept.eldritchhorrorcompanion.loader.BaseSetLoader;
-import com.primum.cept.eldritchhorrorcompanion.loader.ForsakenLoreLoader;
 import com.primum.cept.eldritchhorrorcompanion.loader.LoadManager;
-import com.primum.cept.eldritchhorrorcompanion.loader.StrangeRemnantsLoader;
-import com.primum.cept.eldritchhorrorcompanion.loader.UnderThePyramidsLoader;
 
 public class CardMenuActivity extends AppCompatActivity {
 
@@ -30,26 +26,33 @@ public class CardMenuActivity extends AppCompatActivity {
     }
 
     public void displayRandomSpell(View view){
-        Intent intent = new Intent(this, SelectionActivity.class);
+        Intent intent = new Intent(this, SpellSelectionActivity.class);
         startActivity(intent);
     }
     public void displayRandomAsset(View view){
-        Intent intent = new Intent(this, DisplayCardActivity.class);
-        String message = CardEntry.ASSET_TABLE_NAME;
-        intent.putExtra(CARD_TYPE, message);
+//        Intent intent = new Intent(this, DisplayCardActivity.class);
+//        String message = CardEntry.ASSET_TABLE_NAME;
+//        intent.putExtra(CARD_TYPE, message);
+        Intent intent = new Intent(this, AssetSelectionActivity.class);
         startActivity(intent);
     }
     public void displayRandomUniqueAsset(View view){
-        Intent intent = new Intent(this, DisplayCardActivity.class);
-        String message = CardEntry.UNIQUE_ASSET_TABLE_NAME;
-        intent.putExtra(CARD_TYPE, message);
-        intent.putExtra(SelectionActivity.SUBCATEGORY, "task");
+//        Intent intent = new Intent(this, DisplayCardActivity.class);
+//        String message = CardEntry.UNIQUE_ASSET_TABLE_NAME;
+//        intent.putExtra(CARD_TYPE, message);
+//        intent.putExtra(SpellSelectionActivity.SUBCATEGORY, "task");
+        Intent intent = new Intent(this, UniqueAssetSelectionActivity.class);
         startActivity(intent);
     }
     public void displayRandomArtifact(View view){
         Intent intent = new Intent(this, DisplayCardActivity.class);
         String message = CardEntry.ARTIFACT_TABLE_NAME;
         intent.putExtra(CARD_TYPE, message);
+        startActivity(intent);
+    }
+
+    public void displayRandomCondition(View view){
+        Intent intent = new Intent(this, ConditionSelectionActivity.class);
         startActivity(intent);
     }
 
@@ -66,20 +69,6 @@ public class CardMenuActivity extends AppCompatActivity {
         cardDbHelper.clean(db);
 
         LoadManager.getInstance().load(context,db);
-        //Load Base set
-//        BaseSetLoader baseSetLoader = new BaseSetLoader(context, db);
-//        baseSetLoader.run();
-//
-//        //Load Forsaken Lore expansion set
-//        ForsakenLoreLoader forsakenLoreLoader = new ForsakenLoreLoader(context,db);
-//        forsakenLoreLoader.run();
-//
-//        //Load Strange Remnants expansion set
-//        StrangeRemnantsLoader strangeRemnantsLoader = new StrangeRemnantsLoader(context, db);
-//        strangeRemnantsLoader.run();
-//
-//        //Load Under The Pyramids expansion set
-//        UnderThePyramidsLoader underThePyramidsLoader = new UnderThePyramidsLoader(context, db);
-//        underThePyramidsLoader.run();
+
     }
 }

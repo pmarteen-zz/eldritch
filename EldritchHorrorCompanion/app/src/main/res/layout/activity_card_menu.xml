@@ -71,10 +71,19 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
             <Button
-                android:text="@string/reset"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/button5"
+                android:text="@string/condition_button"
+                android:onClick="displayRandomCondition"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+            <Button
+                android:text="@string/reset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reset"
                 android:onClick="resetDb"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true" />

@@ -1,0 +1,145 @@
+[
+  {
+     "name": "Amnesia",
+     "type": ["madness"]
+  },
+  {
+     "name": "Amnesia",
+     "type": ["madness"]
+  },
+  {
+     "name": "Amnesia",
+     "type": ["madness"]
+  },
+  {
+     "name": "Back Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Back Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Back Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Detained",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Detained",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Detained",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Hallucinations",
+     "type": ["madness"]
+  },
+  {
+     "name": "Hallucinations",
+     "type": ["madness"]
+  },
+  {
+     "name": "Hallucinations",
+     "type": ["madness"]
+  },
+  {
+     "name": "Internal Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Internal Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Internal Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Leg Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Leg Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Leg Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Paranoia",
+     "type": ["madness"]
+  },
+  {
+     "name": "Paranoia",
+     "type": ["madness"]
+  },
+  {
+     "name": "Paranoia",
+     "type": ["madness"]
+  }]

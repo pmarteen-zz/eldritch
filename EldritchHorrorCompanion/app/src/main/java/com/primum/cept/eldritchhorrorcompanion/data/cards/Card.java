@@ -10,9 +10,8 @@ public abstract class Card {
     public Card(String n){
         name = n;
     }
+    public Card(){}
 
-    public Card(){
-    }
     public String displayCard() {
         return "Name: " + name + "\n";
     }

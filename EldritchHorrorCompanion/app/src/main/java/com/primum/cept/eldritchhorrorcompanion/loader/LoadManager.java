@@ -3,6 +3,13 @@ package com.primum.cept.eldritchhorrorcompanion.loader;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.BaseSetLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.DreamlandsLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.ForsakenLoreLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.MountainsOfMadnessLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.StrangeRemnantsLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.UnderThePyramidsLoader;
+
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

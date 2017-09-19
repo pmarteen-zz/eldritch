@@ -1,0 +1,77 @@
+[
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Lost in Time and Space",
+     "type": ["restriction"]
+  },
+  {
+     "name": "Composed",
+     "type": ["talent", "boon"]
+  },
+  {
+     "name": "Composed",
+     "type": ["talent", "boon"]
+  },
+  {
+     "name": "Elusive",
+     "type": ["talent"]
+  },
+  {
+     "name": "Elusive",
+     "type": ["talent"]
+  },
+  {
+     "name": "Martial Prowess",
+     "type": ["talent"]
+  },
+  {
+     "name": "Martial Prowess",
+     "type": ["talent"]
+  },
+  {
+     "name": "Moxie",
+     "type": ["talent"]
+  },
+  {
+     "name": "Moxie",
+     "type": ["talent"]
+  },
+  {
+     "name": "Quick Study",
+     "type": ["talent"]
+  },
+  {
+     "name": "Quick Study",
+     "type": ["talent"]
+  },
+  {
+     "name": "Visions",
+     "type": ["talent"]
+  },
+  {
+     "name": "Visions",
+     "type": ["talent"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Hallucinations",
+     "type": ["madness"]
+  }]

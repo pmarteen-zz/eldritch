@@ -21,7 +21,19 @@
             android:label="@string/title_activity_random_card" />
         <activity android:name=".activities.DisplayCardActivity" android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.SelectionActivity"
+            android:name=".activities.SpellSelectionActivity"
+            android:label="@string/title_activity_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AssetSelectionActivity"
+            android:label="@string/title_activity_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.UniqueAssetSelectionActivity"
+            android:label="@string/title_activity_selection"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ConditionSelectionActivity"
             android:label="@string/title_activity_selection"
             android:theme="@style/AppTheme.NoActionBar" />
 

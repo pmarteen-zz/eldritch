@@ -15,7 +15,9 @@ public final class CardContract {
         public static final String ASSET_TABLE_NAME = "AssetTable";
         public static final String ARTIFACT_TABLE_NAME = "ArtifactTable";
         public static final String UNIQUE_ASSET_TABLE_NAME = "UniqueAssetTable";
-        public static final String TYPE_TABLE_NAME = "TypeTable";
+        public static final String CONDITION_TABLE_NAME = "ConditionTable";
+        public static final String CHARACTER_TABLE_NAME = "CharacterTable";
+        public static final String ANCIENT_ONE_TABLE_NAME = "AncientOneTable";
         public static final String COLUMN_NAME = "CardName";
         public static final String COLUMN_TYPE = "CardType";
         public static final String COLUMN_COST = "AssetCost";
@@ -43,10 +45,20 @@ public final class CardContract {
                     CardEntry._ID + " INTEGER PRIMARY KEY," +
                     CardEntry.COLUMN_NAME + " TEXT," + CardEntry.COLUMN_TYPE + " TEXT)";
 
-    public static final String TYPE_TABLE_CREATE =
-            "CREATE TABLE " + CardEntry.TYPE_TABLE_NAME + " (" +
+    public static final String CONDITION_TABLE_CREATE =
+            "CREATE TABLE " + CardEntry.CONDITION_TABLE_NAME + " (" +
                     CardEntry._ID + " INTEGER PRIMARY KEY," +
-                    CardEntry.COLUMN_TYPE + " TEXT)";
+                    CardEntry.COLUMN_NAME + " TEXT," + CardEntry.COLUMN_TYPE + " TEXT)";
+
+    public static final String CHARACTER_TABLE_CREATE =
+            "CREATE TABLE " + CardEntry.CHARACTER_TABLE_NAME + " (" +
+                    CardEntry._ID + " INTEGER PRIMARY KEY," +
+                    CardEntry.COLUMN_NAME + " TEXT)";
+
+    public static final String ANCIENT_ONE_TABLE_CREATE =
+            "CREATE TABLE " + CardEntry.ANCIENT_ONE_TABLE_NAME + " (" +
+                    CardEntry._ID + " INTEGER PRIMARY KEY," +
+                    CardEntry.COLUMN_NAME + " TEXT)";
 
     public static final String SPELL_TABLE_DELETE =
             "DROP TABLE IF EXISTS " + CardEntry.SPELL_TABLE_NAME;
@@ -56,6 +68,12 @@ public final class CardContract {
             "DROP TABLE IF EXISTS " + CardEntry.UNIQUE_ASSET_TABLE_NAME;
     public static final String ARTIFACT_TABLE_DELETE =
             "DROP TABLE IF EXISTS " + CardEntry.ARTIFACT_TABLE_NAME;
+    public static final String CONDITION_TABLE_DELETE =
+            "DROP TABLE IF EXISTS " + CardEntry.CONDITION_TABLE_NAME;
+    public static final String CHARACTER_TABLE_DELETE =
+            "DROP TABLE IF EXISTS " + CardEntry.CHARACTER_TABLE_NAME;
+    public static final String ANCIENT_ONE_TABLE_DELETE =
+            "DROP TABLE IF EXISTS " + CardEntry.ANCIENT_ONE_TABLE_NAME;
 
 
 }

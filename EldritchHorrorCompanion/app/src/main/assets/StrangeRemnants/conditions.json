@@ -1,0 +1,65 @@
+[
+  {
+     "name": "Righteous",
+     "type": ["boon"]
+  },
+  {
+     "name": "Righteous",
+     "type": ["boon"]
+  },
+  {
+     "name": "Righteous",
+     "type": ["boon"]
+  },
+  {
+     "name": "Righteous",
+     "type": ["boon"]
+  },
+  {
+     "name": "Head Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Head Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Head Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Head Injury",
+     "type": ["injury"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Agreement",
+     "type": ["deal"]
+  },
+  {
+     "name": "Agreement",
+     "type": ["deal"]
+  },
+  {
+     "name": "Agreement",
+     "type": ["deal"]
+  },
+  {
+     "name": "Agreement",
+     "type": ["deal"]
+  }]
