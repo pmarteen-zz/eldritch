@@ -10,6 +10,9 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.primum.cept.eldritchhorrorcompanion.R;
+import com.primum.cept.eldritchhorrorcompanion.data.CardContract;
+
+import static com.primum.cept.eldritchhorrorcompanion.activities.CardMenuActivity.CARD_TYPE;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -26,10 +29,18 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     public void displayAncientOneMenu(View view){
-        Toast.makeText(getApplicationContext(), "Coming soon! :)", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), "Coming soon! :)", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DisplayCardActivity.class);
+        String message = CardContract.CardEntry.ANCIENT_ONE_TABLE_NAME;
+        intent.putExtra(CARD_TYPE, message);
+        startActivity(intent);
     }
     public void displayCharacterMenu(View view){
-        Toast.makeText(getApplicationContext(), "Coming soon! :)", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), "Coming soon! :)", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(this, DisplayCardActivity.class);
+        String message = CardContract.CardEntry.CHARACTER_TABLE_NAME;
+        intent.putExtra(CARD_TYPE, message);
+        startActivity(intent);
     }
 
 }

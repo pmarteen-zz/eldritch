@@ -30,17 +30,10 @@ public class CardMenuActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void displayRandomAsset(View view){
-//        Intent intent = new Intent(this, DisplayCardActivity.class);
-//        String message = CardEntry.ASSET_TABLE_NAME;
-//        intent.putExtra(CARD_TYPE, message);
         Intent intent = new Intent(this, AssetSelectionActivity.class);
         startActivity(intent);
     }
     public void displayRandomUniqueAsset(View view){
-//        Intent intent = new Intent(this, DisplayCardActivity.class);
-//        String message = CardEntry.UNIQUE_ASSET_TABLE_NAME;
-//        intent.putExtra(CARD_TYPE, message);
-//        intent.putExtra(SpellSelectionActivity.SUBCATEGORY, "task");
         Intent intent = new Intent(this, UniqueAssetSelectionActivity.class);
         startActivity(intent);
     }

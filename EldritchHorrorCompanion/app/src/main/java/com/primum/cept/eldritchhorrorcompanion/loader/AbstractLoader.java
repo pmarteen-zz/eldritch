@@ -8,8 +8,10 @@ import android.os.Process;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.primum.cept.eldritchhorrorcompanion.data.CardContract.CardEntry;
+import com.primum.cept.eldritchhorrorcompanion.data.cards.AncientOneCard;
 import com.primum.cept.eldritchhorrorcompanion.data.cards.ArtifactCard;
 import com.primum.cept.eldritchhorrorcompanion.data.cards.AssetCard;
+import com.primum.cept.eldritchhorrorcompanion.data.cards.CharacterCard;
 import com.primum.cept.eldritchhorrorcompanion.data.cards.ConditionCard;
 import com.primum.cept.eldritchhorrorcompanion.data.cards.SpellCard;
 
@@ -30,6 +32,15 @@ public abstract class AbstractLoader implements Runnable {
     abstract protected String getAssetPath();
     abstract protected String getArtifactPath();
     abstract protected String getConditionPath();
+    abstract protected String getCharacterPath();
+    abstract protected String getAncientOnePath();
+
+    protected String spellFile = "/spells.json";
+    protected String assetFile = "/assets.json";
+    protected String artifactFile = "/artifacts.json";
+    protected String conditionFile = "/conditions.json";
+    protected String characterFile = "/characters.json";
+    protected String ancientOneFile = "/ancientones.json";
 
     @Override
     public void run() {
@@ -41,6 +52,8 @@ public abstract class AbstractLoader implements Runnable {
         loadAssets(mapper, assetManager);
         loadArtifacts(mapper, assetManager);
         loadConditions(mapper, assetManager);
+        loadCharacters(mapper, assetManager);
+        loadAncientOnes(mapper, assetManager);
 
     }
 
@@ -106,6 +119,40 @@ public abstract class AbstractLoader implements Runnable {
                 values.put(CardEntry.COLUMN_TYPE, condition.typeString());
 
                 db.insert(CardEntry.CONDITION_TABLE_NAME, null, values);
+            }
+            is.close();
+        }
+        catch(Exception e){
+            e.getMessage();
+        }
+    }
+
+    protected void loadCharacters(ObjectMapper mapper, AssetManager assetManager){
+        try {
+            InputStream is = assetManager.open(getCharacterPath());
+            CharacterCard[] characters = mapper.readValue(is, CharacterCard[].class);
+            for (CharacterCard character : characters) {
+                ContentValues values = new ContentValues();
+                values.put(CardEntry.COLUMN_NAME, character.name);
+
+                db.insert(CardEntry.CHARACTER_TABLE_NAME, null, values);
+            }
+            is.close();
+        }
+        catch(Exception e){
+            e.getMessage();
+        }
+    }
+
+    protected void loadAncientOnes(ObjectMapper mapper, AssetManager assetManager){
+        try {
+            InputStream is = assetManager.open(getAncientOnePath());
+            AncientOneCard[] ancientOneCards = mapper.readValue(is, AncientOneCard[].class);
+            for (AncientOneCard ancientOne : ancientOneCards) {
+                ContentValues values = new ContentValues();
+                values.put(CardEntry.COLUMN_NAME, ancientOne.name);
+
+                db.insert(CardEntry.ANCIENT_ONE_TABLE_NAME, null, values);
             }
             is.close();
         }

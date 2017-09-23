@@ -19,6 +19,8 @@ public abstract class UniqueAssetLoader extends AbstractLoader {
 
     protected abstract String getUniqueAssetPath();
 
+    protected String uniqueAssetFile = "/uniqueAssets.json";
+
     protected void loadUniqueAssets(ObjectMapper mapper, AssetManager assetManager) {
         try {
             InputStream is = assetManager.open(getUniqueAssetPath());

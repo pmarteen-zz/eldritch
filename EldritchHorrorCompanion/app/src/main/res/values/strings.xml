@@ -9,9 +9,9 @@
     <string name="relic_button">Random Relic</string>
     <string name="reset">Reset</string>
     <string name="go">Go!</string>
-    <string name="get_random_card">Get a random card</string>
-    <string name="get_ancient_one_card">Get a random Ancient One</string>
-    <string name="get_character_card">Get a random Character</string>
+    <string name="get_random_card">Random card</string>
+    <string name="get_ancient_one_card">Random Ancient One</string>
+    <string name="get_character_card">Random Character</string>
     <!-- 'Any' categories -->
     <string name="any_spell">Any Spell</string>
     <string name="any_asset">Any Asset</string>

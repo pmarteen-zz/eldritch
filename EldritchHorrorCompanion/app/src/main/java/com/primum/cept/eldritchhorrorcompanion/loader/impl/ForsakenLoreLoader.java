@@ -12,10 +12,15 @@ import com.primum.cept.eldritchhorrorcompanion.loader.AbstractLoader;
  */
 
 public class ForsakenLoreLoader extends AbstractLoader {
-    private final String spellPath = "ForsakenLore/spells.json";
-    private final String assetPath = "ForsakenLore/assets.json";
-    private final String artifactPath = "ForsakenLore/artifacts.json";
-    private final String conditionPath = "ForsakenLore/conditions.json";
+    private final String expansionName = "ForsakenLore";
+    private final String spellPath = expansionName + spellFile;
+    private final String assetPath = expansionName + assetFile;
+    private final String artifactPath = expansionName + artifactFile;
+    private final String conditionPath = expansionName + conditionFile;
+    private final String characterPath = expansionName + characterFile;
+    private final String ancientOnePath = expansionName + ancientOneFile;
+
+
 
     @Override
     protected String getSpellPath() {
@@ -32,6 +37,14 @@ public class ForsakenLoreLoader extends AbstractLoader {
     @Override
     protected String getConditionPath(){
         return conditionPath;
+    }
+    @Override
+    protected String getCharacterPath(){
+        return characterPath;
+    }
+    @Override
+    protected String getAncientOnePath(){
+        return ancientOnePath;
     }
 
     public ForsakenLoreLoader(Context ctx, SQLiteDatabase database) {

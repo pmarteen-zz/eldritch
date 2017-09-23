@@ -10,10 +10,13 @@ import com.primum.cept.eldritchhorrorcompanion.loader.AbstractLoader;
  */
 
 public class BaseSetLoader extends AbstractLoader {
-    private final String spellPath = "BaseSet/spells.json";
-    private final String assetPath = "BaseSet/assets.json";
-    private final String artifactPath = "BaseSet/artifacts.json";
-    private final String conditionPath = "BaseSet/conditions.json";
+    private final String expansionName = "BaseSet";
+    private final String spellPath = expansionName + spellFile;
+    private final String assetPath = expansionName + assetFile;
+    private final String artifactPath = expansionName + artifactFile;
+    private final String conditionPath = expansionName + conditionFile;
+    private final String characterPath = expansionName + characterFile;
+    private final String ancientOnePath = expansionName + ancientOneFile;
 
     @Override
     protected String getSpellPath() {
@@ -30,6 +33,14 @@ public class BaseSetLoader extends AbstractLoader {
     @Override
     protected String getConditionPath(){
         return conditionPath;
+    }
+    @Override
+    protected String getCharacterPath(){
+        return characterPath;
+    }
+    @Override
+    protected String getAncientOnePath(){
+        return ancientOnePath;
     }
 
     public BaseSetLoader(Context ctx, SQLiteDatabase database) {

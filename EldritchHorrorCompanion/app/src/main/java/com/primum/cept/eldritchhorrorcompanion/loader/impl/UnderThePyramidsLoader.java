@@ -19,11 +19,15 @@ import java.io.InputStream;
  */
 
 public class UnderThePyramidsLoader extends UniqueAssetLoader {
-    private final String spellPath = "UnderThePyramids/spells.json";
-    private final String assetPath = "UnderThePyramids/assets.json";
-    private final String artifactPath = "UnderThePyramids/artifacts.json";
-    private final String uniqueAssetPath = "UnderThePyramids/uniqueAssets.json";
-    private final String conditionPath = "UnderThePyramids/conditions.json";
+    private final String expansionName = "UnderThePyramids";
+    private final String spellPath = expansionName + spellFile;
+    private final String assetPath = expansionName + assetFile;
+    private final String artifactPath = expansionName + artifactFile;
+    private final String uniqueAssetPath = expansionName + uniqueAssetFile;
+    private final String conditionPath = expansionName + conditionFile;
+    private final String characterPath = expansionName + characterFile;
+    private final String ancientOnePath = expansionName + ancientOneFile;
+
 
     @Override
     protected String getSpellPath() {
@@ -44,6 +48,14 @@ public class UnderThePyramidsLoader extends UniqueAssetLoader {
     @Override
     protected String getConditionPath(){
         return conditionPath;
+    }
+    @Override
+    protected String getCharacterPath(){
+        return characterPath;
+    }
+    @Override
+    protected String getAncientOnePath(){
+        return ancientOnePath;
     }
 
     public UnderThePyramidsLoader(Context ctx, SQLiteDatabase database) {
