@@ -1,1 +1,129 @@
-[]
+[
+  {
+     "name": "Amnesia",
+     "type": ["madness"]     
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]     
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]     
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]     
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]     
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]     
+  },
+  {
+     "name": "Detained",
+     "type": ["restriction"]     
+  },
+  {
+     "name": "Funding",
+     "type": ["deal"]     
+  },
+  {
+     "name": "Funding",
+     "type": ["deal"]     
+  },
+  {
+     "name": "Funding",
+     "type": ["deal"]     
+  },
+  {
+     "name": "Funding",
+     "type": ["deal"]     
+  },
+  {
+     "name": "Hunger",
+     "type": ["madness"]     
+  },
+  {
+     "name": "Hunger",
+     "type": ["madness"]     
+  },
+  {
+     "name": "Hunger",
+     "type": ["madness"]     
+  },
+  {
+     "name": "Hunger",
+     "type": ["madness"]     
+  },
+  {
+     "name": "Hunted",
+     "type": ["pursuit"]     
+  },
+  {
+     "name": "Hunted",
+     "type": ["pursuit"]     
+  },
+  {
+     "name": "Hunted",
+     "type": ["pursuit"]     
+  },
+  {
+     "name": "Hunted",
+     "type": ["pursuit"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Hypothermia",
+     "type": ["exposure"]     
+  },
+  {
+     "name": "Infection",
+     "type": ["illness"]     
+  },
+  {
+     "name": "Infection",
+     "type": ["illness"]     
+  },
+  {
+     "name": "Infection",
+     "type": ["illness"]     
+  },
+  {
+     "name": "Infection",
+     "type": ["illness"]     
+  },
+  {
+     "name": "Internal Injury",
+     "type": ["injury"]     
+  }]
