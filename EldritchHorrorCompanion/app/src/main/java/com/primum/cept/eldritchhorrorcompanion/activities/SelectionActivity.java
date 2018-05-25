@@ -15,6 +15,7 @@ import com.primum.cept.eldritchhorrorcompanion.data.CardContract;
 
 public abstract class SelectionActivity extends AppCompatActivity {
     public static String SUBCATEGORY = "subcategory";
+    public static String SUBCATEGORIES = "subcategories";
 
     String radioValue;
 

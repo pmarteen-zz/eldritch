@@ -1,0 +1,81 @@
+[
+  {
+     "name": "Ancient Manuscript",
+     "cost": 3,
+     "type": ["trinket", "relic", "tome"]
+  },
+  {
+     "name": "Astute Researcher",
+     "cost": 2,
+     "type": ["ally"]
+  },
+  {
+     "name": "Blessed Blade",
+     "cost": 3,
+     "type": ["item", "magical", "relic", "weapon"]
+  },
+  {
+     "name": "Chainsaw",
+     "cost": 3,
+     "type": ["item"]
+  },
+  {
+     "name": "Enchanted Jewelry",
+     "cost": 3,
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Expert's Blade",
+     "cost": 2,
+     "type": ["item", "magical", "relic", "weapon"]
+  },
+  {
+     "name": "Grim Lexicon",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Grotesque Compendium",
+     "cost": 4,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Museum Director",
+     "cost": 4,
+     "type": ["ally"]
+  },
+  {
+     "name": "Mystic Tome",
+     "cost": 3,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Occult Tablet",
+     "cost": 3,
+     "type": ["item", "relic", "tome"]
+  },
+  {
+     "name": "Protective Totem",
+     "cost": 1,
+     "type": ["item", "magical", "relic"]
+  },
+  {
+     "name": "Scroll of Secrets",
+     "cost": 2,
+     "type": ["item", "tome"]
+  },
+  {
+     "name": "Timeworn Brand",
+     "cost": 1,
+     "type": ["item", "magical", "relic", "weapon"]
+  },
+  {
+     "name": "Treasured Memento",
+     "cost": 1,
+     "type": ["trinket"]
+  },
+  {
+     "name": "Vampiric Talisman",
+     "cost": 2,
+     "type": ["item", "magical", "relic"]
+  }]

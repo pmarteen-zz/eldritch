@@ -15,7 +15,16 @@
         android:textSize="30sp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"/>
-    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <Button
+        android:text="@string/go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/go"
+        android:onClick="displayRandomCard"/>
+
+    <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/radiogroup"
@@ -73,11 +82,4 @@
             android:id="@+id/deal"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
-    <Button
-        android:text="@string/go"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/go"
-        android:onClick="displayRandomCard"/>
 </RelativeLayout>

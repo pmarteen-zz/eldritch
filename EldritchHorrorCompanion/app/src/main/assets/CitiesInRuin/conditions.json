@@ -1,0 +1,81 @@
+﻿[
+  {
+     "name": "Terror",
+     "type": ["madness"]
+  },
+  {
+     "name": "Terror",
+     "type": ["madness"]
+  },
+  {
+     "name": "Terror",
+     "type": ["madness"]
+  },
+  {
+     "name": "Terror",
+     "type": ["madness"]
+  },
+  {
+     "name": "Attuned",
+     "type": ["talent"]
+  },
+  {
+     "name": "Attuned",
+     "type": ["talent"]
+  },
+  {
+     "name": "Guts",
+     "type": ["talent"]
+  },
+  {
+     "name": "Guts",
+     "type": ["talent"]
+  },
+  {
+     "name": "Practiced",
+     "type": ["talent"]
+  },
+  {
+     "name": "Practiced",
+     "type": ["talent"]
+  },
+  {
+     "name": "Quick Study",
+     "type": ["talent"]
+  },
+  {
+     "name": "Quick Study",
+     "type": ["talent"]
+  },
+  {
+     "name": "Relentless",
+     "type": ["talent"]
+  },
+  {
+     "name": "Relentless",
+     "type": ["talent"]
+  },
+  {
+     "name": "Rugged",
+     "type": ["talent"]
+  },
+  {
+     "name": "Rugged",
+     "type": ["talent"]
+  },
+  {
+     "name": "Debt",
+     "type": ["deal", "common"]
+  },
+  {
+     "name": "Dark Pact",
+     "type": ["deal"]
+  },
+  {
+     "name": "Blessed",
+     "type": ["boon"]
+  },
+  {
+     "name": "Cursed",
+     "type": ["bane"]
+  }]

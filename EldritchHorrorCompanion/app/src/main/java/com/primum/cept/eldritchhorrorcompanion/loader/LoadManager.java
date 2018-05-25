@@ -4,8 +4,10 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.primum.cept.eldritchhorrorcompanion.loader.impl.BaseSetLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.CitiesInRuinLoader;
 import com.primum.cept.eldritchhorrorcompanion.loader.impl.DreamlandsLoader;
 import com.primum.cept.eldritchhorrorcompanion.loader.impl.ForsakenLoreLoader;
+import com.primum.cept.eldritchhorrorcompanion.loader.impl.MasksOfNyarlathotepLoader;
 import com.primum.cept.eldritchhorrorcompanion.loader.impl.MountainsOfMadnessLoader;
 import com.primum.cept.eldritchhorrorcompanion.loader.impl.StrangeRemnantsLoader;
 import com.primum.cept.eldritchhorrorcompanion.loader.impl.UnderThePyramidsLoader;
@@ -24,7 +26,7 @@ public class LoadManager {
     private static final int KEEP_ALIVE_TIME = 1;
     private static final TimeUnit KEEP_ALIVE_TIME_UNIT = TimeUnit.SECONDS;
     private static final int CORE_POOL_SIZE = 8;
-    private static final int MAXIMUM_POOL_SIZE = 8;
+    private static final int MAXIMUM_POOL_SIZE = 16;
 
     private final ThreadPoolExecutor mThreadPool;
     private static LoadManager sInstance = null;
@@ -67,5 +69,13 @@ public class LoadManager {
         //Load Dreamlands expansion set
         DreamlandsLoader dreamlandsLoader = new DreamlandsLoader(context, db);
         mThreadPool.execute(dreamlandsLoader);
+
+        //Load Cities in Ruin expansion set
+        CitiesInRuinLoader citiesInRuinLoader = new CitiesInRuinLoader(context, db);
+        mThreadPool.execute(citiesInRuinLoader);
+
+        //Load Cities in Ruin expansion set
+        MasksOfNyarlathotepLoader masksOfNyarlathotepLoader = new MasksOfNyarlathotepLoader(context, db);
+        mThreadPool.execute(masksOfNyarlathotepLoader);
     }
 }

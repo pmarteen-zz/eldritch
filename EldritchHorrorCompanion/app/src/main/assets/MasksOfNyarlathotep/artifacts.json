@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Black Book",
+    "type":["item", "tome"]
+  },
+  {
+    "name": "Black Fan",
+    "type":["item", "magical"]
+  },
+  {
+    "name": "Hemisphere Map",
+    "type":["item"]
+  },
+  {
+    "name": "True Magick",
+    "type":["item, tome"]
+  }
+]

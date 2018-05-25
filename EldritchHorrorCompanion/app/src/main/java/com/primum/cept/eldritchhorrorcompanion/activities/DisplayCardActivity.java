@@ -28,9 +28,14 @@ public class DisplayCardActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String cardType = intent.getStringExtra(CardMenuActivity.CARD_TYPE);
         String subcategory = intent.getStringExtra(SpellSelectionActivity.SUBCATEGORY);
+        String[] subcategories = intent.getStringArrayExtra(SpellSelectionActivity.SUBCATEGORIES);
+        if(subcategories == null && subcategory != null){
+            subcategories = new String[1];
+            subcategories[0] = subcategory;
+        }
 
         try {
-            Card randomCard = getRandomCard(cardType, subcategory);
+            Card randomCard = getRandomCard(cardType, subcategories);
             TextView textView = new TextView(this);
             textView.setTextSize(40);
             textView.setText(randomCard.displayCard());
@@ -44,7 +49,7 @@ public class DisplayCardActivity extends AppCompatActivity {
 
 
     }
-    private Card getRandomCard(String tableName, String subcategory) throws Exception {
+    private Card getRandomCard(String tableName, String... subcategory) throws Exception {
         SQLiteDatabase db = cardDbHelper.getWritableDatabase();
 
         Cursor cursor = db.rawQuery(createQuery(tableName, subcategory), null);
@@ -64,10 +69,14 @@ public class DisplayCardActivity extends AppCompatActivity {
         return card;
     }
 
-    private String createQuery(String tableName, String subcategory){
+    private String createQuery(String tableName, String... subcategory){
         String query = "SELECT * FROM "+ tableName;
-        if(subcategory != null){
-            query += " WHERE " + CardEntry.COLUMN_TYPE + " LIKE '%" + subcategory + "%'";
+
+        if(subcategory != null && subcategory[0] != null){
+            query += " WHERE " + CardEntry.COLUMN_TYPE + " LIKE '%" + subcategory[0] + "%'";
+            for(int i = 1; i < subcategory.length; i++) {
+                query += " OR " + CardEntry.COLUMN_TYPE + " LIKE '%" + subcategory[i] + "%'";
+            }
         }
         return query;
 

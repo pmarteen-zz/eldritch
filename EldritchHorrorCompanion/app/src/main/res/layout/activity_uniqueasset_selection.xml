@@ -40,10 +40,10 @@
             android:textSize="24sp"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
-            android:text="@string/tarot"
+            android:text="@string/tome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/tarot"
+            android:id="@+id/tome"
             android:textSize="24sp"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
@@ -52,6 +52,13 @@
             android:layout_height="wrap_content"
             android:textSize="24sp"
             android:id="@+id/task"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/weapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/weapon"
             android:onClick="onRadioButtonClicked"/>
     </RadioGroup>
     <Button

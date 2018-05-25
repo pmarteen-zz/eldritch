@@ -1,0 +1,17 @@
+﻿[
+  {
+     "name": "Fetch Stick",
+     "type":["item", "magical", "weapon"]
+  },
+  {
+     "name": "G'harne Fragments",
+     "type":["item", "relic", "tome"]
+  },
+  {
+     "name": "Tikkoun Elixir",
+     "type":["item", "elixir"]
+  },
+  {
+     "name": "Vach-Viraj Chant",
+     "type":["item", "magical", "tome"]
+  }]

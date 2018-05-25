@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_spell_selection_check">
+    <TextView
+        android:text="@string/subcategories"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+    <CheckBox android:id="@+id/checkbox_glamours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/glamours"
+        android:textSize="24sp"
+        android:onClick="onCheckboxClicked"
+        android:checked="true" />
+    <CheckBox android:id="@+id/checkbox_incantations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/incantations"
+        android:textSize="24sp"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/checkbox_glamours"
+        android:checked="true" />
+    <CheckBox android:id="@+id/checkbox_ritual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rituals"
+        android:textSize="24sp"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/checkbox_incantations"
+        android:checked="true" />
+    </RelativeLayout>
+    <Button
+        android:text="@string/go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/go"
+        android:onClick="displayRandomCard"/>
+</RelativeLayout>

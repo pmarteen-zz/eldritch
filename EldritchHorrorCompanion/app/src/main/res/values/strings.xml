@@ -16,6 +16,7 @@
     <string name="any_spell">Any Spell</string>
     <string name="any_asset">Any Asset</string>
     <string name="any_uniqueasset">Any Unique Asset</string>
+    <string name="any_artifact">Any Artifact</string>
     <!-- Spells -->
     <string name="rituals">Rituals</string>
     <string name="incantations">Incantations</string>
@@ -23,10 +24,14 @@
     <!-- Assets -->
     <string name="weapon">Weapon</string>
     <string name="task">Task</string>
+    <string name="trinket">Trinket</string>
     <string name="relic">Relic</string>
     <string name="tarot">Tarot</string>
+    <string name="tome">Tome</string>
     <string name="ally">Ally</string>
     <string name="service">Service</string>
+    <string name="magical">Magical</string>
+    <string name="item">Item</string>
     <!-- Conditions -->
     <string name="madness">Madness</string>
     <string name="illness">Illness</string>
@@ -35,6 +40,7 @@
     <string name="talent">Talent</string>
     <string name="bane">Bane</string>
     <string name="deal">Deal</string>
+
     <!-- Activity titles -->
     <string name="subcategories">Select Subcategory</string>
     <string name="main_menu_title">Welcome to the Eldritch Horror Companion!</string>

@@ -31,22 +31,39 @@ public final class AssetSelectionActivity extends SelectionActivity {
                 if (checked)
                     radioValue = null;
                 break;
-            case R.id.weapon:
-                if (checked)
-                    radioValue = "weapon";
-                break;
             case R.id.ally:
                 if (checked)
                     radioValue = "ally";
                 break;
-            case R.id.task:
+            case R.id.magical:
                 if (checked)
-                    radioValue = "task";
+                    radioValue = "magical";
+                break;
+            case R.id.item:
+                if (checked)
+                    radioValue = "item";
                 break;
             case R.id.service:
                 if (checked)
                     radioValue = "service";
                 break;
+            case R.id.task:
+                if (checked)
+                    radioValue = "task";
+                break;
+            case R.id.tome:
+                if (checked)
+                    radioValue = "tome";
+                break;
+            case R.id.trinket:
+                if (checked)
+                    radioValue = "trinket";
+                break;
+            case R.id.weapon:
+                if (checked)
+                    radioValue = "weapon";
+                break;
+
         }
     }
     @Override

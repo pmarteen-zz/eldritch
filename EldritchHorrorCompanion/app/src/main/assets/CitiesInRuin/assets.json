@@ -1,0 +1,97 @@
+﻿[
+  {
+     "name": "Agency Stakeout",
+     "cost": 2,
+     "type": ["service"]
+
+  },
+  {
+     "name": "Arcane Sutra",
+     "cost": 3,
+     "type": ["item", "tome"]
+
+  },
+  {
+     "name": "Forbidden Secrets",
+     "cost": 2,
+     "type": ["item", "tome"]
+
+  },
+  {
+     "name": "Gatling Gun",
+     "cost": 4,
+     "type": ["item", "weapon"]
+
+  },
+  {
+     "name": "Grisly Totem",
+     "cost": 3,
+     "type": ["trinket", "magical"]
+
+  },
+  {
+     "name": "Lodge Hunter",
+     "cost": 4,
+     "type": ["ally"]
+
+  },
+  {
+     "name": "Mauser C96",
+     "cost": 2,
+     "type": ["item", "weapon"]
+
+  },
+  {
+     "name": "Mission Briefing",
+     "cost": 1,
+     "type": ["service"]
+
+  },
+  {
+     "name": "Mystic Scroll",
+     "cost": 1,
+     "type": ["item", "tome"]
+
+  },
+  {
+     "name": "News Report",
+     "cost": 1,
+     "type": ["service"]
+
+  },
+  {
+     "name": "Occult Scripture",
+     "cost": 3,
+     "type": ["item", "tome"]
+
+  },
+  {
+     "name": "Painkillers",
+     "cost": 1,
+     "type": ["trinket"]
+
+  },
+  {
+     "name": "Private Flight",
+     "cost": 2,
+     "type": ["service"]
+
+  },
+  {
+     "name": "Silver Twilight Host",
+     "cost": 3,
+     "type": ["service"]
+
+  },
+  {
+     "name": "Winchester Rifle",
+     "cost": 2,
+     "type": ["item", "weapon"]
+
+  },
+  {
+     "name": "Training Regimen",
+     "cost": 2,
+     "type": ["service"]
+
+  }]

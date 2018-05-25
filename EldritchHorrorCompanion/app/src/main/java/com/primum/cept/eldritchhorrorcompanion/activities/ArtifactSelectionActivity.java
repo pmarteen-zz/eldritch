@@ -9,15 +9,15 @@ import com.primum.cept.eldritchhorrorcompanion.R;
 import com.primum.cept.eldritchhorrorcompanion.data.CardContract;
 
 /**
- * Created by peter.marteen on 9/16/17.
+ * Created by Peter on 1/22/2018.
  */
 
-public class UniqueAssetSelectionActivity extends SelectionActivity {
+public class ArtifactSelectionActivity extends SelectionActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //TODO: Use fragments instead of separate layouts for these activities
-        setContentView(R.layout.activity_uniqueasset_selection);
+        setContentView(R.layout.activity_artifact_selection);
 
     }
     @Override
@@ -26,32 +26,26 @@ public class UniqueAssetSelectionActivity extends SelectionActivity {
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which radio button was clicked
-        switch(view.getId()) {
+        switch (view.getId()) {
             case R.id.any:
                 if (checked)
                     radioValue = null;
-                break;
-            case R.id.relic:
-                if (checked)
-                    radioValue = "relic";
                 break;
             case R.id.tome:
                 if (checked)
                     radioValue = "tome";
                 break;
-            case R.id.task:
-                if (checked)
-                    radioValue = "task";
-                break;
             case R.id.weapon:
                 if (checked)
                     radioValue = "weapon";
+                break;
         }
     }
+
     @Override
     public void displayRandomCard(View view){
         Intent intent = new Intent(this, DisplayCardActivity.class);
-        String message = CardContract.CardEntry.UNIQUE_ASSET_TABLE_NAME;
+        String message = CardContract.CardEntry.ARTIFACT_TABLE_NAME;
         intent.putExtra(CardMenuActivity.CARD_TYPE, message);
         intent.putExtra(SUBCATEGORY, radioValue);
         //TODO: pass db to next activity

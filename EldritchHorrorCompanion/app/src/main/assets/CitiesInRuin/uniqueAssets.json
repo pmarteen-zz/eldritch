@@ -1,0 +1,97 @@
+﻿[
+  {
+     "name": "Duke",
+     "type": ["ally"]
+  },
+  {
+     "name": "Amery Wendy-Smith",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Professor Morgan",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Agent Callahan",
+     "type": ["ally", "character"]
+  },
+  {
+     "name": "Agency Secrets",
+     "type": ["item"]
+  },
+  {
+     "name": "Agency Secrets",
+     "type": ["item"]
+  },
+  {
+     "name": "Agency Secrets",
+     "type": ["item"]
+  },
+  {
+     "name": "Agency Secrets",
+     "type": ["item"]
+  },
+  {
+     "name": "Courier Run",
+     "type": ["task"]
+  },
+  {
+     "name": "Courier Run",
+     "type": ["task"]
+  },
+  {
+     "name": "Courier Run",
+     "type": ["task"]
+  },
+  {
+     "name": "Courier Run",
+     "type": ["task"]
+  },
+  {
+     "name": "For the Greater Good",
+     "type": ["task"]
+  },
+  {
+     "name": "For the Greater Good",
+     "type": ["task"]
+  },
+  {
+     "name": "For the Greater Good",
+     "type": ["task"]
+  },
+  {
+     "name": "Light of Reason",
+     "type": ["task"]
+  },
+  {
+     "name": "Light of Reason",
+     "type": ["task"]
+  },
+  {
+     "name": "Light of Reason",
+     "type": ["task"]
+  },
+  {
+     "name": "Seeking the Masters",
+     "type": ["task"]
+  },
+  {
+     "name": "Seeking the Masters",
+     "type": ["task"]
+  },
+  {
+     "name": "Seeking the Masters",
+     "type": ["task"]
+  },
+  {
+     "name": "Wave of Destruction",
+     "type": ["task"]
+  },
+  {
+     "name": "Wave of Destruction",
+     "type": ["task"]
+  },
+  {
+     "name": "Wave of Destruction",
+     "type": ["task"]
+  }]

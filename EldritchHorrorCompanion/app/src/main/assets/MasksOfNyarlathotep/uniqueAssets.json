@@ -1,0 +1,113 @@
+[
+  {
+     "Name":"Jake Williams",
+     "Type":["ally", "character"]
+  },
+  {
+     "Name":"Jack Brady",
+     "Type":["ally", "character"]
+  },
+  {
+     "Name":"The Messenger",
+     "Type":["ally", "character"]
+  },
+  {
+     "Name":"Dr. Ali Kafour",
+     "Type":["ally", "character"]
+  },
+  {
+     "Name":"Eye of Light",
+     "Type":["item", "magical"]
+  },
+  {
+     "Name":"Eye of Darkness",
+     "Type":["item", "magical"]
+  },
+  {
+     "Name":"Stone Tablet",
+     "Type":["item", "relic"]
+  },
+  {
+     "Name":"Stone Tablet",
+     "Type":["item", "relic"]
+  },
+  {
+     "Name":"Stone Tablet",
+     "Type":["item", "relic"]
+  },
+  {
+     "Name":"Tablet Shards",
+     "Type":["item", "relic"]
+  },
+  {
+     "Name":"Tablet Shards",
+     "Type":["item", "relic"]
+  },
+  {
+     "Name":"Tablet Shards",
+     "Type":["item", "relic"]
+  },
+  {
+     "Name":"Cursed Tablet",
+     "Type":["item", "magical", "relic"]
+  },
+  {
+     "Name":"Lost Treasure",
+     "Type":["item", "magical", "relic"]
+  },
+  {
+     "Name":"Stone Calendar",
+     "Type":["item", "magical", "relic"]
+  },
+  {
+     "Name":"Wooden Puppet",
+     "Type":["ally", "magical", "relic"]
+  },
+  {
+     "Name":"Ancient Scroll",
+     "Type":["item", "relic", "tome"]
+  },
+  {
+     "Name":"Perplexing Idol",
+     "Type":["item", "magical", "relic"]
+  },
+  {
+     "Name":"Sacred Icon",
+     "Type":["trinket", "magical", "relic"]
+  },
+  {
+     "Name":"Push it to the Limit",
+     "Type":["task"]
+  },
+  {
+     "Name":"Push it to the Limit",
+     "Type":["task"]
+  },
+  {
+     "Name":"Push it to the Limit",
+     "Type":["task"]
+  },
+  {
+     "Name":"Sacrifices to Make",
+     "Type":["task"]
+  },
+  {
+     "Name":"Sacrifices to Make",
+     "Type":["task"]
+  },
+  {
+     "Name":"Sacrifices to Make",
+     "Type":["task"]
+  },
+  {
+     "Name":"Tempted by Darkness",
+     "Type":["task"]
+  },
+  {
+     "Name":"Tempted by Darkness",
+     "Type":["task"]
+  },
+  {
+     "Name":"Tempted by Darkness",
+     "Type":["task"]
+  }]
