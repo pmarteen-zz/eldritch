@@ -11,11 +11,10 @@
         android:text="@string/subcategories"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginBottom="12dp"
         android:id="@+id/textView"
         android:textSize="30sp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/go" />
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,13 +30,54 @@
             android:textSize="24sp"
             android:id="@+id/any"
             android:onClick="onRadioButtonClicked"/>
-
+        <RadioButton
+            android:text="@string/ally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ally"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/character"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/magical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/magical"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
         <RadioButton
             android:text="@string/relic"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/relic"
             android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/tarot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tarot"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/task"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
             android:text="@string/tome"
@@ -47,11 +87,11 @@
             android:textSize="24sp"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
-            android:text="@string/task"
+            android:text="@string/trinket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/trinket"
             android:textSize="24sp"
-            android:id="@+id/task"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
             android:text="@string/weapon"

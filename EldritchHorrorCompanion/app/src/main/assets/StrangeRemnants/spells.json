@@ -1,66 +1,66 @@
 [
  {
    "name": "Astral Travel",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Astral Travel",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Astral Travel",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Astral Travel",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Azure Flame",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Azure Flame",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Azure Flame",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Azure Flame",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Markings of Isis",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Markings of Isis",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Markings of Isis",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Markings of Isis",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Voice of Ra",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Voice of Ra",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Voice of Ra",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Voice of Ra",
-   "type": "glamour"
+   "type": ["glamour"]
  }
 ]

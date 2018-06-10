@@ -20,7 +20,6 @@ public final class AssetSelectionActivity extends SelectionActivity {
         setContentView(R.layout.activity_asset_selection);
 
     }
-    @Override
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -33,35 +32,43 @@ public final class AssetSelectionActivity extends SelectionActivity {
                 break;
             case R.id.ally:
                 if (checked)
-                    radioValue = "ally";
-                break;
-            case R.id.magical:
-                if (checked)
-                    radioValue = "magical";
+                    radioValue = ALLY;
                 break;
             case R.id.item:
                 if (checked)
-                    radioValue = "item";
+                    radioValue = ITEM;
+                break;
+            case R.id.magical:
+                if (checked)
+                    radioValue = MAGICAL;
+                break;
+            case R.id.relic:
+                if (checked)
+                    radioValue = RELIC;
                 break;
             case R.id.service:
                 if (checked)
-                    radioValue = "service";
+                    radioValue = SERVICE;
                 break;
             case R.id.task:
                 if (checked)
-                    radioValue = "task";
+                    radioValue = TASK;
+                break;
+            case R.id.teamwork:
+                if (checked)
+                    radioValue = TEAMWORK;
                 break;
             case R.id.tome:
                 if (checked)
-                    radioValue = "tome";
+                    radioValue = TOME;
                 break;
             case R.id.trinket:
                 if (checked)
-                    radioValue = "trinket";
+                    radioValue = TRINKET;
                 break;
             case R.id.weapon:
                 if (checked)
-                    radioValue = "weapon";
+                    radioValue = WEAPON;
                 break;
 
         }

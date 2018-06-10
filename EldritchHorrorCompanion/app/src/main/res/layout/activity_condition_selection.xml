@@ -10,11 +10,10 @@
         android:text="@string/subcategories"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_marginBottom="12dp"
         android:id="@+id/textView"
         android:textSize="30sp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/go" />
 
     <Button
         android:text="@string/go"
@@ -31,13 +30,40 @@
         android:orientation="vertical"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
-
         <RadioButton
-            android:text="@string/madness"
+            android:text="@string/bane"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:id="@+id/madness"
+            android:id="@+id/bane"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/boon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/boon"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/common"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/common"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/deal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/deal"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/exposure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/exposure"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
             android:text="@string/illness"
@@ -54,11 +80,25 @@
             android:textSize="24sp"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
-            android:text="@string/boon"
+            android:text="@string/madness"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/boon"
             android:textSize="24sp"
+            android:id="@+id/madness"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/pursuit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/pursuit"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/restriction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:id="@+id/restriction"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton
             android:text="@string/talent"
@@ -67,19 +107,6 @@
             android:id="@+id/talent"
             android:textSize="24sp"
             android:onClick="onRadioButtonClicked"/>
-        <RadioButton
-            android:text="@string/bane"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:id="@+id/bane"
-            android:onClick="onRadioButtonClicked"/>
-        <RadioButton
-            android:text="@string/deal"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="24sp"
-            android:id="@+id/deal"
-            android:onClick="onRadioButtonClicked"/>
+
     </RadioGroup>
 </RelativeLayout>

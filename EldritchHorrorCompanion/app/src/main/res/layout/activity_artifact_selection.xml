@@ -31,12 +31,53 @@
             android:textSize="24sp"
             android:id="@+id/any"
             android:onClick="onRadioButtonClicked"/>
-
+        <RadioButton
+            android:text="@string/elixir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/elixir"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/magical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/magical"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/relic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/relic"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/teamwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/teamwork"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
         <RadioButton
             android:text="@string/tome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tome"
+            android:textSize="24sp"
+            android:onClick="onRadioButtonClicked"/>
+        <RadioButton
+            android:text="@string/trinket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/trinket"
             android:textSize="24sp"
             android:onClick="onRadioButtonClicked"/>
         <RadioButton

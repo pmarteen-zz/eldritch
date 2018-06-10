@@ -64,7 +64,7 @@ public abstract class AbstractLoader implements Runnable {
             for (SpellCard spell : spells) {
                 ContentValues values = new ContentValues();
                 values.put(CardEntry.COLUMN_NAME, spell.name);
-                values.put(CardEntry.COLUMN_TYPE, spell.type);
+                values.put(CardEntry.COLUMN_TYPE, spell.typeString());
 
                 db.insert(CardEntry.SPELL_TABLE_NAME, null, values);
             }

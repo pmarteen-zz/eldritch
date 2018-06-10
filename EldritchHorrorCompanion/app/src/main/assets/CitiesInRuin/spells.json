@@ -1,49 +1,49 @@
 ﻿[
   {
      "name": "Beast Within",
-     "type": "glamour"
+     "type": ["glamour"]
   },
   {
      "name": "Beast Within",
-     "type": "glamour"
+     "type": ["glamour"]
   },
   {
      "name": "Beast Within",
-     "type": "glamour"
+     "type": ["glamour"]
   },
   {
      "name": "Beast Within",
-     "type": "glamour"
+     "type": ["glamour"]
   },
   {
      "name": "Occult Exaltation",
-     "type": "ritual"
+     "type": ["ritual"]
   },
   {
      "name": "Occult Exaltation",
-     "type": "ritual"
+     "type": ["ritual"]
   },
   {
      "name": "Occult Exaltation",
-     "type": "ritual"
+     "type": ["ritual"]
   },
   {
      "name": "Occult Exaltation",
-     "type": "ritual"
+     "type": ["ritual"]
   },
   {
      "name": "Spectral Razor",
-     "type": "incantation"
+     "type": ["incantation"]
   },
   {
      "name": "Spectral Razor",
-     "type": "incantation"
+     "type": ["incantation"]
   },
   {
      "name": "Spectral Razor",
-     "type": "incantation"
+     "type": ["incantation"]
   },
   {
      "name": "Spectral Razor",
-     "type": "incantation"
+     "type": ["incantation"]
   }]

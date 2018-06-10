@@ -15,6 +15,19 @@ import com.primum.cept.eldritchhorrorcompanion.data.CardContract;
  */
 
 public final class ConditionSelectionActivity extends SelectionActivity {
+
+    public static final String BANE = "bane";
+    public static final String BOON = "boon";
+    public static final String COMMON = "common";
+    public static final String DEAL = "deal";
+    public static final String EXPOSURE = "exposure";
+    public static final String ILLNESS = "illness";
+    public static final String INJURY = "injury";
+    public static final String MADNESS = "madness";
+    public static final String PURSUIT = "pursuit";
+    public static final String RESTRICTION = "restriction";
+    public static final String TALENT = "talent";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,40 +35,55 @@ public final class ConditionSelectionActivity extends SelectionActivity {
         setContentView(R.layout.activity_condition_selection);
 
     }
-    @Override
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
 
         // Check which radio button was clicked
         switch(view.getId()) {
-            case R.id.madness:
+            case R.id.bane:
                 if (checked)
-                    radioValue = "madness";
-                break;
-            case R.id.illness:
-                if (checked)
-                    radioValue = "illness";
-                break;
-            case R.id.injury:
-                if (checked)
-                    radioValue = "injury";
+                    radioValue = BANE;
                 break;
             case R.id.boon:
                 if (checked)
-                    radioValue = "boon";
+                    radioValue = BOON;
                 break;
-            case R.id.talent:
+            case R.id.common:
                 if (checked)
-                    radioValue = "talent";
-                break;
-            case R.id.bane:
-                if (checked)
-                    radioValue = "bane";
+                    radioValue = COMMON;
                 break;
             case R.id.deal:
                 if (checked)
-                    radioValue = "deal";
+                    radioValue = DEAL;
+                break;
+            case R.id.exposure:
+                if (checked)
+                    radioValue = EXPOSURE;
+                break;
+            case R.id.illness:
+                if (checked)
+                    radioValue = ILLNESS;
+                break;
+            case R.id.injury:
+                if (checked)
+                    radioValue = INJURY;
+                break;
+            case R.id.madness:
+                if (checked)
+                    radioValue = MADNESS;
+                break;
+            case R.id.pursuit:
+                if (checked)
+                    radioValue = PURSUIT;
+                break;
+            case R.id.restriction:
+                if (checked)
+                    radioValue = RESTRICTION;
+                break;
+            case R.id.talent:
+                if (checked)
+                    radioValue = TALENT;
                 break;
         }
     }

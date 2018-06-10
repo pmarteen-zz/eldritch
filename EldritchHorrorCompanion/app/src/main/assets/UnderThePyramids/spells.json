@@ -1,98 +1,98 @@
 [
  {
    "name": "Alter Fate",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Alter Fate",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Alter Fate",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Alter Fate",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchant Weapon",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchant Weapon",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchant Weapon",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchant Weapon",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchanting Grace",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchanting Grace",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchanting Grace",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Enchanting Grace",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Forced Learning",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Forced Learning",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Forced Learning",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Forced Learning",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Shroud of Shadow",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Shroud of Shadow",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Shroud of Shadow",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Shroud of Shadow",
-   "type": "glamour"
+   "type": ["glamour"]
  },
  {
    "name": "Wrack",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Wrack",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Wrack",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Wrack",
-   "type": "incantation"
+   "type": ["incantation"]
  }
 ]

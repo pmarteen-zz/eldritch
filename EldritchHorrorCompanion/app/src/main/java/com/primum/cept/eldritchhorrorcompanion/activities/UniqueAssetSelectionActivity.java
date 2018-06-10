@@ -13,6 +13,8 @@ import com.primum.cept.eldritchhorrorcompanion.data.CardContract;
  */
 
 public class UniqueAssetSelectionActivity extends SelectionActivity {
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +22,6 @@ public class UniqueAssetSelectionActivity extends SelectionActivity {
         setContentView(R.layout.activity_uniqueasset_selection);
 
     }
-    @Override
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -31,21 +32,45 @@ public class UniqueAssetSelectionActivity extends SelectionActivity {
                 if (checked)
                     radioValue = null;
                 break;
+            case R.id.ally:
+                if (checked)
+                    radioValue = ALLY;
+                break;
+            case R.id.character:
+                if (checked)
+                    radioValue = CHARACTER;
+                break;
+            case R.id.item:
+                if (checked)
+                    radioValue = ITEM;
+                break;
+            case R.id.magical:
+                if (checked)
+                    radioValue = MAGICAL;
+                break;
             case R.id.relic:
                 if (checked)
-                    radioValue = "relic";
+                    radioValue = RELIC;
                 break;
-            case R.id.tome:
+            case R.id.tarot:
                 if (checked)
-                    radioValue = "tome";
+                    radioValue = TAROT;
                 break;
             case R.id.task:
                 if (checked)
-                    radioValue = "task";
+                    radioValue = TASK;
+                break;
+            case R.id.tome:
+                if (checked)
+                    radioValue = TOME;
+                break;
+            case R.id.trinket:
+                if (checked)
+                    radioValue = TRINKET;
                 break;
             case R.id.weapon:
                 if (checked)
-                    radioValue = "weapon";
+                    radioValue = WEAPON;
         }
     }
     @Override

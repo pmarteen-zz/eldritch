@@ -13,6 +13,9 @@ import com.primum.cept.eldritchhorrorcompanion.data.CardContract;
  */
 
 public class ArtifactSelectionActivity extends SelectionActivity {
+
+    public static final String ELIXIR = "elixir";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +23,6 @@ public class ArtifactSelectionActivity extends SelectionActivity {
         setContentView(R.layout.activity_artifact_selection);
 
     }
-    @Override
     public void onRadioButtonClicked(View view) {
         // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
@@ -31,13 +33,37 @@ public class ArtifactSelectionActivity extends SelectionActivity {
                 if (checked)
                     radioValue = null;
                 break;
+            case R.id.elixir:
+                if (checked)
+                    radioValue = ELIXIR;
+                break;
+            case R.id.item:
+                if (checked)
+                    radioValue = ITEM;
+                break;
+            case R.id.magical:
+                if (checked)
+                    radioValue = MAGICAL;
+                break;
+            case R.id.relic:
+                if (checked)
+                    radioValue = RELIC;
+                break;
+            case R.id.teamwork:
+                if (checked)
+                    radioValue = TEAMWORK;
+                break;
             case R.id.tome:
                 if (checked)
-                    radioValue = "tome";
+                    radioValue = TOME;
+                break;
+            case R.id.trinket:
+                if (checked)
+                    radioValue = TRINKET;
                 break;
             case R.id.weapon:
                 if (checked)
-                    radioValue = "weapon";
+                    radioValue = WEAPON;
                 break;
         }
     }

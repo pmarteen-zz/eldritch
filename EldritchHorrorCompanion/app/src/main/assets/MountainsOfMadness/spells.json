@@ -1,65 +1,65 @@
 [
   {
      "name":"Arcane Insight",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Arcane Insight",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Arcane Insight",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Arcane Insight",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Banishment",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Banishment",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Banishment",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Banishment",
-     "type":"ritual"
+     "type":["ritual"]
   },
   {
      "name":"Intervene",
-     "type":"incantation"
+     "type":["incantation", "teamwork"]
   },
   {
      "name":"Intervene",
-     "type":"incantation"
+     "type":["incantation", "teamwork"]
   },
   {
      "name":"Intervene",
-     "type":"incantation"
+     "type":["incantation", "teamwork"]
   },
   {
      "name":"Intervene",
-     "type":"incantation"
+     "type":["incantation", "teamwork"]
   },
   {
      "name":"Storm of Spirits",
-     "type":"incantation"
+     "type":["incantation"]
   },
   {
      "name":"Storm of Spirits",
-     "type":"incantation"
+     "type":["incantation"]
   },
   {
      "name":"Storm of Spirits",
-     "type":"incantation"
+     "type":["incantation"]
   },
   {
      "name":"Storm of Spirits",
-     "type":"incantation"
+     "type":["incantation"]
   }]

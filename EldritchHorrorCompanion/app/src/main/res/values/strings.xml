@@ -1,17 +1,42 @@
 <resources>
     <string name="app_name">Eldritch Horror Companion</string>
     <!-- Button labels -->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_game_button">New Game</string>
+    <string name="resume_game_button">Resume Game</string>
     <string name="asset_button">Random Asset</string>
     <string name="spell_button">Random Spell</string>
     <string name="unique_asset_button">Random Unique Asset</string>
     <string name="artifact_button">Random Artifact</string>
     <string name="condition_button">Random Condition</string>
     <string name="relic_button">Random Relic</string>
-    <string name="reset">Reset</string>
+    <string name="reset">Reset (Deprecated)</string>
     <string name="go">Go!</string>
     <string name="get_random_card">Random card</string>
     <string name="get_ancient_one_card">Random Ancient One</string>
     <string name="get_character_card">Random Character</string>
+    <!-- Dialog labels -->
+    <string name="select_expansions">Select Expansions (this doesnt do anything yet)</string>
+    <string name="base">Base Set</string>
+    <string name="cites_in_ruin">Cities in Ruin</string>
+    <string name="dreamlands">Dreamlands</string>
+    <string name="forsaken_lore">Forsaken Lore</string>
+    <string name="masks_of_nyarlathotep">Mask of Nyarlathotep</string>
+    <string name="mountains_of_madness">Mountains of Madness</string>
+    <string name="strange_remnants">Strange Remnants</string>
+    <string name="under_the_pyramids">Under the Pyramids</string>
+    <string-array name="expansions">
+        <item>Base Set</item>
+        <item>Cities in Ruin</item>
+        <item>Dreamlands</item>
+        <item>Forsaken Lore</item>
+        <item>Mask of Nyarlathotep</item>
+        <item>Mountains of Madness</item>
+        <item>Strange Remnants</item>
+        <item>Under the Pyramids</item>
+    </string-array>
+
     <!-- 'Any' categories -->
     <string name="any_spell">Any Spell</string>
     <string name="any_asset">Any Asset</string>
@@ -21,6 +46,7 @@
     <string name="rituals">Rituals</string>
     <string name="incantations">Incantations</string>
     <string name="glamours">Glamours</string>
+    <string name="teamwork">Teamwork</string>
     <!-- Assets -->
     <string name="weapon">Weapon</string>
     <string name="task">Task</string>
@@ -29,9 +55,11 @@
     <string name="tarot">Tarot</string>
     <string name="tome">Tome</string>
     <string name="ally">Ally</string>
+    <string name="character">Character</string>
     <string name="service">Service</string>
     <string name="magical">Magical</string>
     <string name="item">Item</string>
+    <string name="elixir">Elixir</string>
     <!-- Conditions -->
     <string name="madness">Madness</string>
     <string name="illness">Illness</string>
@@ -40,6 +68,10 @@
     <string name="talent">Talent</string>
     <string name="bane">Bane</string>
     <string name="deal">Deal</string>
+    <string name="pursuit">Pursuit</string>
+    <string name="restriction">Restriction</string>
+    <string name="common">Common</string>
+    <string name="exposure">Exposure</string>
 
     <!-- Activity titles -->
     <string name="subcategories">Select Subcategory</string>

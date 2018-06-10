@@ -40,6 +40,14 @@
         android:onClick="onCheckboxClicked"
         android:layout_below="@+id/checkbox_incantations"
         android:checked="true" />
+    <CheckBox android:id="@+id/checkbox_teamwork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/teamwork"
+        android:textSize="24sp"
+        android:onClick="onCheckboxClicked"
+        android:layout_below="@+id/checkbox_ritual"
+        android:checked="true" />
     </RelativeLayout>
     <Button
         android:text="@string/go"

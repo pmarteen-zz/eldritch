@@ -1,114 +1,114 @@
 [
  {
    "name": "Blessing of Isis",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Blessing of Isis",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Clairvoyance",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Clairvoyance",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Conjuration",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Conjuration",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Feed the Mind",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Feed the Mind",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Flesh Ward",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Flesh Ward",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Healing Words",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Healing Words",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Healing Words",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Healing Words",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Instill Bravery",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Instill Bravery",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Mists of Releh",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Mists of Releh",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Plumb the Void",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Plumb the Void",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Poison Mist",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Poison Mist",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Poison Mist",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Poison Mist",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Shriveling",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Shriveling",
-   "type": "ritual"
+   "type": ["ritual"]
  },
  {
    "name": "Wither",
-   "type": "incantation"
+   "type": ["incantation"]
  },
  {
    "name": "Wither",
-   "type": "incantation"
+   "type": ["incantation"]
  }
 ]

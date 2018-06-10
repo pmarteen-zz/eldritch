@@ -1,82 +1,82 @@
 [
   {
-    "name" : "Wither",
-    "type" : "incantation"
+    "Name": "Wither",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Wither",
-    "type" : "incantation"
+    "Name": "Wither",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Shriveling",
-    "type" : "ritual"
+    "Name": "Shriveling",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Shriveling",
-    "type" : "ritual"
+    "Name": "Shriveling",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Plumb the Void",
-    "type" : "ritual"
+    "Name": "Plumb the Void",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Plumb the Void",
-    "type" : "ritual"
+    "Name": "Plumb the Void",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Mists of Releh",
-    "type" : "incantation"
+    "Name": "Mists of Releh",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Mists of Releh",
-    "type" : "incantation"
+    "Name": "Mists of Releh",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Instill Bravery",
-    "type" : "incantation"
+    "Name": "Instill Bravery",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Instill Bravery",
-    "type" : "incantation"
+    "Name": "Instill Bravery",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Flesh Ward",
-    "type" : "incantation"
+    "Name": "Flesh Ward",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Flesh Ward",
-    "type" : "incantation"
+    "Name": "Flesh Ward",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Feed the Mind",
-    "type" : "ritual"
+    "Name": "Feed the Mind",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Feed the Mind",
-    "type" : "ritual"
+    "Name": "Feed the Mind",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Conjuration",
-    "type" : "ritual"
+    "Name": "Conjuration",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Conjuration",
-    "type" : "ritual"
+    "Name": "Conjuration",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Clairvoyance",
-    "type" : "incantation"
+    "Name": "Clairvoyance",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Clairvoyance",
-    "type" : "incantation"
+    "Name": "Clairvoyance",
+    "Type": ["incantation"]
   },
   {
-    "name" : "Blessing of Isis",
-    "type" : "ritual"
+    "Name": "Blessing of Isis",
+    "Type": ["ritual"]
   },
   {
-    "name" : "Blessing of Isis",
-    "type" : "ritual"
+    "Name": "Blessing of Isis",
+    "Type": ["ritual"]
   }
 ]

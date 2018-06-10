@@ -13,11 +13,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public final class SpellSelectionActivity extends SelectionActivity {
+
     List<String> checkedBoxes = new ArrayList<>();
 
     private static String GLAMOUR = "glamour";
     private static String INCANTATION = "incantation";
     private static String RITUAL = "ritual";
+
+    //Number of spell types
+    private static int MAGIC_NUMBER = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,32 +31,8 @@ public final class SpellSelectionActivity extends SelectionActivity {
         checkedBoxes.add(GLAMOUR);
         checkedBoxes.add(INCANTATION);
         checkedBoxes.add(RITUAL);
+        checkedBoxes.add(TEAMWORK);
 
-    }
-    @Override
-    public void onRadioButtonClicked(View view) {
-        // Is the button now checked?
-        boolean checked = ((RadioButton) view).isChecked();
-
-        // Check which radio button was clicked
-        switch(view.getId()) {
-            case R.id.any:
-                if (checked)
-                    radioValue = null;
-                    break;
-            case R.id.rituals:
-                if (checked)
-                    radioValue = RITUAL;
-                    break;
-            case R.id.incantations:
-                if (checked)
-                    radioValue = INCANTATION;
-                    break;
-            case R.id.glamours:
-                if (checked)
-                    radioValue = GLAMOUR;
-                    break;
-        }
     }
 
     public void onCheckboxClicked(View view) {
@@ -82,6 +62,13 @@ public final class SpellSelectionActivity extends SelectionActivity {
                 else
                     checkedBoxes.remove(RITUAL);
                 break;
+            case R.id.checkbox_teamwork:
+                if (checked){
+                    checkedBoxes.add(TEAMWORK);
+                }
+                else
+                    checkedBoxes.remove(TEAMWORK);
+                break;
         }
     }
 
@@ -91,7 +78,7 @@ public final class SpellSelectionActivity extends SelectionActivity {
         String message = CardContract.CardEntry.SPELL_TABLE_NAME;
         intent.putExtra(CardMenuActivity.CARD_TYPE, message);
         //magic number 3 = total types of spells
-        if(!checkedBoxes.isEmpty() && checkedBoxes.size() != 3) {
+        if(!checkedBoxes.isEmpty() && checkedBoxes.size() != MAGIC_NUMBER) {
             intent.putExtra(SUBCATEGORIES, checkedBoxes.toArray(new String[checkedBoxes.size()]));
         }
         //TODO: pass db to next activity

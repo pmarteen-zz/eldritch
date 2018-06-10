@@ -51,8 +51,8 @@ public class DisplayCardActivity extends AppCompatActivity {
     }
     private Card getRandomCard(String tableName, String... subcategory) throws Exception {
         SQLiteDatabase db = cardDbHelper.getWritableDatabase();
-
-        Cursor cursor = db.rawQuery(createQuery(tableName, subcategory), null);
+        String query = createQuery(tableName, subcategory);
+        Cursor cursor = db.rawQuery(query, null);
         int max = cursor.getCount() - 1;
         if(max < 0) return EmptyCard.getInstance();
         int rand = (int) (Math.random() * max);
